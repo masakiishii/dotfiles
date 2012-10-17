@@ -106,5 +106,15 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-PS1="\[\033[0;37m\]\u\[\033[0m\]@\[\033[1;32m\]\W\[\033[1;34m\]$\[\033[0m\]"
+function parse_git_branch {
+  git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+function precmd() {
+    PROMPT="\h@\u:\W\$(parse_git_branch) \$ "
+}
+function proml {
+    PS1="\[\033[0;37m\]\u\[\033[0m\]@\[\033[1;32m\]\W\$(parse_git_branch)\[\033[1;34m\]$\[\033[0m\]"
+}
+proml
+
 eval "$(rbenv init -)"
