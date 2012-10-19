@@ -113,7 +113,7 @@ function precmd() {
     PROMPT="\h@\u:\W\$(parse_git_branch) \$ "
 }
 function proml {
-    PS1="\[\033[0;37m\]\u\[\033[0m\]@\[\033[1;32m\]\W\$(parse_git_branch)\[\033[1;34m\]$\[\033[0m\]"
+    PS1="\[\033[0;37m\]\u\[\033[0m\]@\[\033[1;32m\]\W\[\033[1;31m\]\$(parse_git_branch)\[\033[1;34m\]$\[\033[0m\]"
 }
 proml
 
