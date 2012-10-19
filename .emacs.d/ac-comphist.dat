@@ -1,2112 +1,2112 @@
-((("DB" .
-   [1 0])
-  ("syslog" .
-   [1 0 0 0 0 0])
-  ("kfileline_t" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("value" .
-   [5 0 0 0 0])
-  ("id_tmp" .
-   [1 0 0 0 0 0])
-  ("filelog_memory_index" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("filelog_memory" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 2])
-  ("NameSpace" .
-   [1 0 0 0 0 0 0 0 0])
-  ("Name" .
-   [1 0 0 0])
-  ("classItems" .
-   [0 0 0 0 0 0 0 0 0 1])
-  ("classTable" .
-   [0 0 0 0 0 0 0 0 0 1])
-  ("classid" .
-   [1 0 0 0 0 0 0])
-  ("conf" .
-   [2 0 0 0])
-  ("_Complex" .
-   [2 0 0 0 0 0 0 0])
-  ("init" .
-   [1 0 0 0])
-  ("mtd_cid" .
-   [1 0 0 0 0 0 0])
-  ("TY_boolean" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("mtd" .
-   [1 0 0])
-  ("Method_returnType" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("ia" .
-   [2 0])
-  ("Mpz" .
-   [2 0 0])
-  ("find" .
-   [4 0 0 0])
-  ("typeId" .
-   [1 0 0 0 0 0])
-  ("eax" .
-   [1 0 0])
-  ("path" .
-   [2 0 0 0])
-  ("branch_count" .
-   [1 0 0 0 0 0 0 0 0 0 1 0])
-  ("branch" .
-   [2 0 0 0 0 0])
-  ("BRANCHSIZE" .
-   [0 0 0 1 0 0 0 0 0 0])
-  ("32" .
-   [1 0])
-  ("newfunc" .
-   [4 0 0 0 0 0 0])
-  ("VirtualMachineByteCodeLine" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0])
-  ("_Tokenizer" .
-   [0 0 0 0 0 0 0 1 0 0])
-  ("Tokenizer" .
-   [0 0 0 0 0 0 0 0 1])
-  ("tmp_cell" .
-   [2 0 0 0 0 0 0 0])
-  ("tmp_token" .
-   [2 0 0 0 0 0 0 0 0])
-  ("freelist" .
-   [1 0 0 0 0 0 0 0])
-  ("FREELIST" .
-   [0 0 0 0 1 0 0 0])
-  ("_Parser" .
-   [0 0 0 1 0 0 0])
-  ("Parser" .
-   [1 0 0 0 0 1])
-  ("OFF" .
-   [2 0 0])
-  ("defun_call" .
-   [2 0 0 0 0 0 0 0 0 1])
-  ("ON" .
-   [3 0])
-  ("defun_flag" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("Cell" .
-   [1 0 0 0])
-  ("VM_ByteCode_Set" .
-   [0 0 0 0 16 1 0 1 1 0 0 0 0 0 0])
-  ("cdr" .
-   [10 0 0])
-  ("eval_pointer" .
-   [0 0 0 0 1 1 0 0 1 0 0 0])
-  ("C" .
+((("KFree" .
+   [2 0 0 0 0])
+  ("FILELOG_MEMORY_SIZE" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("8" .
    [1])
-  ("vmcode" .
-   [0 0 0 0 0 1])
-  ("pc" .
-   [7 0])
-  ("ByteCode_t" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("tree_head" .
+  ("kushort_t" .
    [1 0 0 0 0 0 0 0 0])
-  ("T_END" .
-   [4 0 3 4 2])
-  ("svalue" .
-   [1 0 1 0 0 0])
-  ("T_OPERATOR" .
-   [0 0 0 0 1 0 0 0 0 0])
-  ("h" .
-   [1])
-  ("celltype" .
-   [1 0 0 2 0 3 0 2])
-  ("level" .
-   [15 0 0 0 0])
-  ("DBG_P" .
-   [0 0 0 0 1])
-  ("head" .
-   [18 0 0 0])
-  ("Conscell_t" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("Conscell" .
-   [0 0 0 0 0 0 0 1])
-  ("Tree_Dump" .
-   [0 0 0 0 1 0 0 0 0])
-  ("reg_name" .
-   [2 0 0 0 1 0 0 0])
-  ("tmp_" .
-   [4 0 0 0])
-  ("short" .
-   [1 0 0 0 0])
-  ("double" .
-   [8 0 0 0 0 0])
-  ("dbname" .
-   [1 0 0 0 0 0])
-  ("db" .
-   [1 0])
-  ("url" .
-   [2 0 0])
-  ("btstr" .
-   [1 0 0 0 0])
-  ("DEFUN" .
-   [2 0 0 0 0])
-  ("opcode" .
-   [15 0 0 0 0 0])
-  ("p_int" .
-   [1 0 0 0 0])
-  ("databuf" .
-   [1 0 0 0 0 0 0])
-  ("256" .
-   [2 0 0])
-  ("kint_t" .
-   [2 0 0 0 1 0])
-  ("query" .
-   [3 0 0 0 0])
-  ("use" .
-   [1 0 0])
-  ("dbnm" .
-   [3 0 0 0])
-  ("host" .
-   [3 0 0 0])
-  ("pass" .
-   [3 0 0 0])
-  ("user" .
-   [3 0 0 0])
-  ("field" .
-   [1 0 0 0 0])
-  ("treePointer" .
-   [0 0 0 0 0 1 0 1 0 0 0])
-  ("add_history" .
-   [0 0 0 0 0 0 1 0 0 0 0])
-  ("readline" .
-   [1 0 0 0 0 0 0 0])
-  ("input" .
-   [6 0 0 0 0])
-  ("S_text" .
-   [2 0 0 0 0 0])
-  ("fuga" .
-   [2 0 0 0])
-  ("load" .
-   [1 0 0 0])
-  ("cid" .
-   [4 0 0])
-  ("mouseReleaseEvent" .
-   [1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("konoha.java/java." .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("null" .
-   [1 0 0 0])
-  ("ClassEnum" .
-   [1 0 0 0 0 0 0 0 0])
-  ("parent_class_name" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("getName" .
-   [1 0 0 0 0 0 0])
-  ("parent_class" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("getSuperClass" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("PrintWriter" .
-   [0 0 0 0 0 0 1 0 0 0 0])
-  ("klass" .
-   [3 0 0 0 1])
-  ("genParentsIR" .
-   [0 0 0 0 0 2 0 0 0 1 0 0])
-  ("WindowEvent" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("test" .
-   [1 0 0 0])
-  ("_rix" .
-   [1 0 0 0])
-  ("ndata" .
-   [3 0 0 0 0])
-  ("vsfp" .
-   [5 0 0 0])
-  ("KNH_NULL" .
-   [1 0 0 0 0 0 0 0])
-  ("kunbox_t" .
-   [0 0 0 0 0 1 0 0])
-  ("ClassTBL" .
-   [1 0 0 0 0 0 0 0])
-  ("ct" .
-   [1 0])
-  ("knh_ClassTBL_t" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("Generator.java" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("bashrc" .
-   [0 0 0 0 1 0])
-  (".bashrc" .
-   [1 0 0 0 0 0 0])
-  ("less" .
-   [1 0 0 0])
-  ("../qt-ir" .
-   [0 0 1 0 0 0 0 0])
-  ("error_log" .
-   [0 0 0 0 1 0 0 0 0])
-  ("konoha.java" .
-   [1 0 0 0 0 0 0 0 0 1 0])
-  ("mv" .
-   [1 0])
-  ("-c" .
-   [1 0])
-  ("gen-ir2k-cpp.k" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("konoha" .
-   [2 0 0 0 0 0])
-  ("!/bin/sh" .
-   [1 0 0 0 0 0 0 0])
-  ("../genir/QTextEdit.genir" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("../genir/" .
-   [0 0 0 0 0 1 0 1 0])
-  ("asm" .
-   [4 0 0])
-  ("script" .
-   [1 0 0 0 0 0])
-  ("extractor" .
-   [0 0 0 0 0 0 0 0 1])
-  ("compiler_arguments" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("compiler" .
-   [0 0 0 0 0 0 0 2])
-  ("CompilerInstance" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("clang" .
-   [1 0 0 0 0])
-  ("j_enum" .
-   [1 0 0 0 0 0])
-  ("keys" .
-   [2 0 0 0])
-  ("k" .
-   [3])
-  ("getKeys" .
-   [0 0 0 0 1 0 1])
-  ("enums" .
-   [2 0 0 0 0])
-  ("j_enums" .
-   [3 0 0 0 0 0 0])
-  ("Json" .
-   [3 0 0 0])
-  ("j_ctx" .
-   [1 0 0 0 0])
-  ("j_class" .
-   [4 0 0 0 0 0 0])
-  ("ClassName" .
-   [2 0 0 0 0 0 0 0 0])
-  ("genClassInit" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("argc_p" .
-   [2 0 0 0 0 0])
-  ("d" .
-   [3])
-  ("_focus_default_y" .
-   [0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("_focus_default_x" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1])
-  ("720" .
-   [1 0 0])
-  ("_w_block_height" .
-   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("_w_block_width" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("_w_block" .
-   [0 0 0 2 1 0 0 1])
-  ("_w_block_default_y" .
-   [0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0])
-  ("_w_block_default_x" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1])
-  ("new_WoodBlock" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("_w_block_" .
-   [0 0 0 0 0 0 0 0 1])
-  ("w_block" .
-   [0 0 1 0 0 0 2])
-  ("setFriction" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("_rs_block_default_y" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("_rs_block_default_x" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("_ls_block_default_y" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("_ls_block_default_x" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
-  ("setXForm" .
-   [0 0 0 0 2 0 0 0])
-  ("_ls_block" .
-   [0 0 0 3 1 0 0 0 0])
-  ("_game_scene" .
-   [0 0 0 0 0 1 1 0 0 0 0])
-  ("ls_block" .
-   [0 0 0 1 0 0 0 0])
-  ("new_Bird" .
-   [0 0 0 0 0 0 1 0])
-  ("new_BigBlock" .
-   [0 0 0 0 0 0 0 2 0 0 0 1])
-  ("400" .
-   [1 0 0])
-  ("200" .
-   [3 0 0])
-  ("_big_block_width" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("_pig_width" .
-   [0 0 0 0 0 0 0 0 1 0])
-  ("_pig_height" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("600" .
-   [4 0 0])
-  ("_pig2_default_y" .
-   [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0])
-  ("_pig2_default_x" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
-  ("_pig1_default_y" .
-   [0 0 0 1 0 0 0 1 0 0 0 0 0 0 0])
-  ("_pig1_default_x" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
-  ("mode" .
-   [1 0 0 0])
-  ("ReadOnly" .
-   [1 0 0 0 0 0 0 1])
-  ("QIODeviceOpenMode" .
-   [0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("connect" .
-   [1 0 0 0 0 0 0])
-  ("Client" .
-   [2 0 0 0 0 0])
-  ("sct" .
-   [1 0 0])
-  ("displayError" .
-   [0 0 0 0 0 0 0 0 1 0 0 0])
-  ("read_data" .
-   [2 0 0 0 0 0 0 1 0])
-  ("readBytes" .
-   [2 0 0 0 0 0 0 0 0])
-  ("QDataStream" .
-   [0 0 0 0 0 1 0 0 0 0 0])
-  ("QTcpSocket" .
-   [1 0 0 0 1 0 1 0 0 3])
-  ("QTcpSocke" .
-   [0 0 0 0 0 0 0 0 1])
-  ("readData" .
-   [1 0 0 0 0 0 0 0])
-  ("tcp_socket" .
-   [0 0 0 1 1 0 2 0 0 0])
-  ("focalPoint" .
-   [0 0 0 0 0 0 1 0 0 0])
-  ("center" .
-   [2 0 0 0 0 0])
-  ("radialGrad" .
-   [1 0 0 0 0 0 0 0 0 4])
-  ("QBrush" .
-   [2 0 0 0 0 0])
-  ("develop/Qtgen/konoha.qt4" .
-   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("RETURNb_" .
-   [1 0 0 0 0 0 0 0])
-  ("RETURN" .
-   [0 0 0 0 0 1])
-  ("parentCall" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("pkgconnector" .
-   [0 0 0 1 0 0 1 0 0 0 0 0])
-  ("RETURNvoid_" .
-   [2 0 0 0 0 0 0 0 0 0 2])
-  ("rawptr" .
-   [2 0 0 0 0 0])
-  ("kRawPtr" .
-   [0 0 1 0 0 0 0])
-  ("_RIX" .
-   [0 0 1 0])
-  ("sfp" .
-   [5 0 1])
-  ("ksfp_t" .
-   [0 0 0 0 0 1])
-  ("CTX" .
-   [2 0 0])
-  ("updateScene" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("_const_force" .
-   [0 0 0 0 0 1 1 0 0 0 0 0])
-  ("update" .
-   [1 0 0 0 0 0])
-  ("_r_count" .
-   [4 0 0 0 0 0 0 0])
-  ("r_count" .
-   [3 0 0 0 0 0 0])
-  ("scrollRight" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("setUpdateInterval" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("setInterval" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("moveTo" .
-   [2 0 0 0 0 0])
-  ("viewZoom" .
-   [1 0 0 0 0 0 1 0])
-  ("rfa" .
-   [5 0 0])
-  ("setRect" .
-   [3 0 0 0 0 0 1])
-  ("QRectF" .
-   [3 0 0 1 2 1])
-  ("new_Static" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("traceBird" .
-   [0 0 0 0 0 1 0 0 0])
-  ("QTimer" .
-   [4 0 0 0 0 0])
-  ("timer" .
-   [8 0 0 0 0])
-  ("wheel" .
-   [1 0 0 0 0])
-  ("centerOn" .
-   [4 0 0 0 0 0 0 0])
-  ("num_degrees" .
-   [0 0 0 0 0 0 0 0 0 1 0])
-  ("delta" .
-   [1 0 0 0 0])
-  ("factor" .
-   [3 0 0 0 0 0])
-  ("_view" .
-   [8 0 0 0 0])
-  ("_scheduled_scaling" .
-   [0 0 0 0 1 4 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("animFinished" .
-   [0 0 0 0 0 0 0 0 1 0 0 0])
-  ("scalingTime" .
-   [0 0 0 0 0 0 0 1 0 0 0])
-  ("signalConnect" .
-   [0 0 0 1 0 1 3 0 0 0 0 0 0])
-  ("3000" .
-   [1 0 0 0])
-  ("_anim" .
-   [5 0 0 0 0])
-  ("QTimeLine" .
-   [0 0 0 0 0 2 0 1 1])
-  ("num_steps" .
-   [2 0 0 1 0 0 0 1 1])
-  ("scheduled_scaling" .
-   [0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("ground" .
-   [2 0 0 0 0 0])
-  ("event_y" .
-   [1 0 0 0 0 0 0])
-  ("event_x" .
-   [1 0 0 0 0 0 0])
-  ("current_x" .
-   [3 0 0 0 0 0 0 0 1])
-  ("current_y" .
-   [0 0 2 0 0 0 0 0 1])
-  ("item_pos" .
-   [0 0 0 0 2 0 0 0])
-  ("ppf" .
-   [2 0 0])
-  ("QGraphicsComplexItem" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0])
-  ("body" .
-   [9 0 0 0])
-  ("image" .
-   [3 0 0 0 0])
-  ("QImage" .
-   [2 0 0 0 0 0])
-  ("sudo" .
-   [4 0 0 0])
-  ("/usr/local/konoha/package/1.0/konoha.qt4/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 2 0 0])
-  ("/usr/local/konoha/package/1.0/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 2 0 0])
-  ("/usr/local/konoha/package/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 1 0 0 1])
-  ("/usr/local/konoha/script/1.0/man" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("/usr/local/konoha/script/1.0/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("/usr/local/konoha/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 1])
-  ("../package/konoha.qt4/build/qt4.so" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 3 0 0 0])
-  ("../package/konoha.qt4/build/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0])
-  ("../package/konoha.qt4/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 3 1])
-  ("../package/" .
-   [0 0 0 0 0 4 0 0 0 0 0])
-  ("make" .
-   [9 0 0 0])
-  ("QPushButton" .
-   [0 0 0 0 1 5 0 0 0 0 0])
-  ("/home/" .
-   [0 0 0 0 0 1])
-  ("greadline" .
-   [1 0 0 0 0 0 0 0 0])
-  ("checkGameOver" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("bool" .
-   [10 0 0 0])
-  ("INTERVAL" .
-   [1 0 0 0 0 1 0 0])
-  ("updateWorld" .
-   [0 0 0 0 0 0 2 1 0 0 1])
-  ("GraphicsSceneMousePress" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("QEvent" .
-   [2 0 0 0 0 0])
-  ("false" .
-   [5 0 0 0 0])
-  ("event" .
-   [22 0 0 0 0])
-  ("siro_sikaku" .
-   [0 0 0 0 1 0 0 0 0 0 0])
-  ("initWorld" .
-   [0 0 0 0 2 0 0 0 0])
-  ("world" .
-   [27 0 0 0 0])
-  ("FRAME_HEIGHT" .
-   [0 0 2 4 1 2 0 5 1 0 0 0])
-  ("FRAME_WIDTH" .
-   [0 0 0 6 0 2 0 2 0 2 1])
-  ("STAGE_HEIGHT" .
-   [0 0 0 0 0 0 0 2 0 0 0 1])
-  ("STAGE_WIDTH" .
-   [0 0 2 0 0 0 0 0 2 0 0])
-  ("PATH" .
-   [3 0 0 0])
-  ("For" .
-   [5 0 0])
-  ("painter" .
-   [1 0 0 0 0 0 0])
-  ("paint" .
-   [1 0 0 0 0])
-  ("QGraphicsRectItem" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1])
-  ("server_blink" .
-   [0 0 0 0 0 0 0 0 0 0 1 0])
-  ("sample" .
-   [2 0 0 0 0 0])
-  ("BlurHint" .
-   [0 0 0 0 0 0 0 2])
-  ("QGraphicsBlurEffect" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("cTBL" .
-   [2 0 0 0])
-  ("addText" .
-   [1 0 0 0 0 0 0])
-  ("ret_c" .
-   [1 0 0 0 0])
-  ("KQPoint" .
-   [1 0 0 0 0 0 0])
-  ("arg" .
-   [4 0 1])
-  ("QApplication_" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("dist" .
-   [9 0 0 0])
-  ("src" .
-   [6 0 0])
-  ("END_LOCAL" .
-   [0 0 0 1 0 0 0 0 0])
-  ("ctx" .
-   [6 0 0])
-  ("BEGIN_LOCAL" .
-   [0 0 0 0 0 1 0 0 0 0 0])
-  ("lsfp" .
-   [6 0 0 0])
-  ("multiadd" .
-   [1 0 0 0 0 0 1 0])
-  ("api" .
-   [1 0 0])
-  ("res" .
-   [2 0 0])
-  ("dumpComb" .
-   [0 0 0 0 0 0 1 0])
-  ("getData" .
-   [1 0 0 0 0 0 0])
-  ("gsl_combination_prev" .
-   [4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("gsl_combination_free" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
-  ("get" .
-   [2 0 0])
-  ("copy" .
-   [5 0 0 0])
-  ("gsl_combination_initLast" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0])
-  ("dumpData" .
-   [0 0 0 2 2 0 0 1])
-  ("gsl_combination_k" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("gsl_combination_data" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("gsl_combination_initFirst" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1])
-  ("gsl_combination_calloc" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 2 0 0])
-  ("GSL_FAILURE" .
-   [1 0 0 2 0 0 1 0 0 0 0])
-  ("size_t" .
-   [3 0 0 0 0 0])
-  ("gsl_combination_alloc" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("gsl_combination" .
-   [0 0 0 0 0 0 1 1 2 0 0 0 0 0 33])
-  ("QGLWidget" .
-   [0 0 0 1 0 0 0 0 0])
-  ("ACDIR" .
-   [1 0 0 0 0])
-  ("add" .
-   [10 0 0])
-  ("ret_v" .
-   [8 0 0 0 0])
-  ("handler" .
-   [1 0 1 0 1 0 0])
-  ("knh_RawPtr_t" .
-   [0 0 0 0 0 0 1 0 0 0 1 0])
-  ("static" .
-   [18 0 0 0 0 0])
-  ("RETURNi_" .
-   [1 0 0 0 0 0 0 0])
-  ("KMETHOD" .
-   [2 0 0 0 0 0 0])
-  ("cdef" .
-   [1 0 0 0])
-  ("QFont" .
-   [1 0 0 0 0])
-  ("font" .
-   [2 0 0 0])
-  ("out" .
-   [5 0 0])
-  ("qp" .
-   [3 0])
-  ("dlerror" .
-   [3 0 0 2 2 0 1])
-  ("120" .
-   [1 0 0])
-  ("item_height" .
-   [0 0 0 0 0 0 2 0 0 0 0])
-  ("item_width" .
-   [0 0 0 0 0 0 1 1 0 0])
-  ("width" .
-   [2 0 0 1 0])
-  ("height" .
-   [0 0 0 0 1 0])
-  ("gpi" .
-   [1 0 0])
-  ("100" .
-   [29 0 0])
-  ("800" .
-   [1 0 0])
-  ("1200" .
-   [1 0 0 0])
-  ("resize" .
-   [1 0 0 0 0 0])
-  ("ret" .
-   [26 0 0])
-  ("clist" .
-   [1 0 0 0 0])
-  ("declations" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("inherits" .
-   [0 0 0 0 1 0 0 0])
-  ("makeK" .
-   [3 0 0 0 0])
-  ("func" .
-   [21 0 0 0])
-  ("OutputStream" .
-   [0 0 0 0 0 0 1 0 0 0 0 0])
-  ("InputStream" .
-   [0 0 0 0 0 1 0 0 0 0 0])
-  ("ins" .
-   [2 0 0])
-  ("before" .
-   [2 0 1 0 0 1])
-  ("foreach" .
-   [5 0 0 0 0 0 0])
-  ("errno" .
-   [1 0 0 0 0])
-  ("K_INTERNAL" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("createBind" .
-   [0 0 0 1 0 0 0 0 0 0])
-  ("argumentFormat" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("fe" .
-   [6 0])
-  ("p" .
-   [5])
-  ("pop" .
-   [10 0 0])
-  ("true" .
-   [17 0 0 0])
-  ("tc" .
-   [33 0])
-  ("continue" .
-   [3 0 0 0 0 0 0 0])
-  ("remove" .
-   [9 0 0 0 0 0])
-  ("FunctionElement" .
-   [0 0 0 0 0 0 0 0 0 4 4 1 0 0 2])
-  ("declation" .
-   [3 0 2 3 0 1 0 0 0])
-  ("parse" .
-   [4 0 0 0 0])
-  ("Array" .
-   [4 1 0 0 0])
-  ("name" .
-   [5 0 0 0])
-  ("n" .
-   [4])
-  ("ac" .
-   [6 0])
-  ("do" .
-   [3 0])
-  ("argument_type" .
-   [11 0 1 0 1 0 0 0 1 0 2 4 43])
-  ("print" .
-   [94 0 0 0 1])
-  ("Q" .
-   [2])
-  ("returnFormat" .
-   [2 0 0 0 0 0 0 0 0 1 0 0])
-  ("copy_token1" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("candidate1" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("candidate" .
-   [0 0 0 0 0 0 0 0 1])
-  ("copy_token" .
-   [1 0 0 0 0 0 0 0 0 1])
-  ("copy_flag1" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("copy_flag2" .
-   [1 0 0 0 0 0 0 0 0 2])
-  ("int_array_copy" .
-   [0 0 0 0 0 3 0 0 0 0 0 0 0 0])
-  ("size" .
-   [9 0 0 1])
-  ("candidate2" .
-   [1 0 0 0 0 2 0 0 0 3])
-  ("eval" .
-   [4 0 0 0])
-  ("flag" .
-   [8 0 1 1])
-  ("answer_i" .
-   [4 0 0 0 0 0 0 0])
-  ("fclose" .
-   [0 0 0 0 1 0])
-  ("answer_c" .
-   [3 0 0 0 0 0 0 0])
-  ("answer" .
-   [2 0 2 3 0 10])
-  ("binary_digit" .
-   [0 0 1 1 4 0 0 0 0 0 0 0])
-  ("max" .
-   [11 0 0])
-  ("token_number" .
-   [0 0 0 0 0 0 0 0 19 3 0 1])
-  ("fopen" .
-   [1 0 0 0 0])
-  ("FILE" .
-   [1 0 0 0])
-  ("solve" .
-   [2 0 0 0 0])
-  ("end_flag" .
-   [0 0 0 0 0 1 0 1])
-  ("line_length" .
-   [1 0 0 0 0 1 0 0 0 0 0])
-  ("strlen" .
-   [4 0 0 0 0 0])
-  ("tokenizer" .
-   [0 0 0 0 0 1 1 0 0])
-  ("atoi" .
-   [2 0 0 0])
-  ("n_i" .
-   [4 0 0])
-  ("MAX_LINE_LENGTH" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 1 0 0])
-  ("MAX_DIGIT" .
-   [0 0 0 0 0 1 3 0 0])
-  ("MAX_INTEGER_NUMBER" .
-   [2 0 0 0 0 1 4 0 1 0 0 0 0 0 0 0 0 0])
-  ("MAX_PLOBLEM_DIGIT" .
-   [0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("n_c" .
-   [2 0 0])
-  ("fgets" .
-   [2 0 0 0 0])
-  ("pn_i" .
-   [2 0 0 0])
-  ("pn" .
-   [1 0])
-  ("pn_c" .
-   [3 0 0 0])
-  ("fp" .
-   [10 0])
-  ("/usr/bin/" .
-   [0 0 0 0 0 0 0 1 0])
-  ("/usr/" .
-   [0 2 1 7 1])
-  ("export" .
-   [14 0 0 0 0 0])
-  ("alias" .
-   [5 0 0 0 0])
-  ("Fixed" .
-   [1 0 0 0 0])
-  ("30" .
-   [1 0])
-  ("50" .
-   [1 0])
-  ("QFormLayout" .
-   [0 0 0 0 0 1 0 0 0 0 0])
-  ("m_WholeLayout" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 2])
-  ("SOELineEdit" .
-   [0 0 0 0 0 2 0 0 0 0 0])
-  ("setFocus" .
-   [2 0 0 0 0 0 0 0])
-  ("str" .
-   [38 0 0])
-  ("MemoryPool" .
-   [0 0 0 0 1 0 0 0 0 0])
-  ("mp" .
-   [3 0])
-  ("allocateData" .
-   [1 0 0 0 0 0 0 0 1 0 0 0])
-  ("a" .
-   [14])
-  ("array" .
-   [2 0 0 0 0])
-  ("byte" .
-   [1 0 0 0])
-  ("token_count" .
-   [1 0 0 0 0 0 0 0 0 4 0])
-  ("line_size" .
-   [1 0 0 0 0 0 0 0 0])
-  ("dump_exec_code" .
-   [0 0 0 2 0 0 0 0 0 0 0 0 0 1])
-  ("dumpToken" .
-   [0 0 0 1 0 0 0 0 1])
-  ("include" .
-   [49 0 0 0 1 0 0])
-  ("internal-make-lisp-face" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("in" .
-   [6 0])
-  ("int" .
-   [183 0 1])
-  ("main" .
-   [8 0 1 0])
-  ("aaa" .
-   [0 0 1])
-  ("jijiji" .
-   [0 0 0 0 1 0])
-  ("intervals-consed" .
-   [0 0 1 6 0 0 0 0 0 0 0 0 0 0 0 2])
-  ("interprogram-cut-function" .
-   [0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("void-text-area-pointer" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("intern" .
-   [0 0 0 0 0 1])
-  ("internal-get-face" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("inter" .
-   [0 0 0 0 1])
-  ("printf" .
-   [43 0 0 0 0 0])
-  ("exec_code" .
-   [2 0 0 1 2 0 0 0 0])
-  ("L_VAL_INC" .
-   [0 0 0 0 0 1 0 0 0])
-  ("SOEHighlighter" .
-   [0 0 0 0 4 0 0 0 0 0 0 0 0 0])
-  ("void" .
-   [70 0 0 0])
-  ("initializeReservedWord" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1])
-  ("SOHighlighter" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("QStringList" .
-   [0 0 0 0 0 0 0 0 0 1 1])
-  ("konoha_reserved_type" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4])
-  ("konoha_reserved_keyword" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
-  ("delete" .
-   [4 0 0 0 0 0])
-  ("konoha1" .
-   [0 0 0 0 0 0 1])
-  ("patternMatchReservedWord" .
-   [0 0 0 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("start" .
-   [22 0 0 0 0])
-  ("end" .
-   [16 0 0])
-  ("QString" .
-   [5 0 0 0 0 0 5])
-  ("text" .
-   [28 0 0 1])
-  ("while" .
-   [30 0 0 0 0])
-  ("for" .
-   [36 0 0])
-  ("list_count" .
-   [4 0 0 0 0 0 0 0 0 0])
-  ("list" .
-   [14 0 0 0])
-  ("c" .
-   [4])
-  ("pattern" .
-   [13 0 0 0 0 0 0])
-  ("count" .
-   [56 0 0 2 0])
-  ("text_count" .
-   [5 0 0 0 0 0 0 0 0 0])
-  ("endl" .
-   [31 0 0 1])
-  ("indexOf" .
-   [9 0 0 1 10 6 2])
-  ("r" .
-   [2])
-  ("QRegExp" .
-   [1 0 0 0 0 1 0])
-  ("clear" .
-   [1 0 0 0 1])
-  ("append" .
-   [5 0 0 0 0 0])
-  ("type" .
-   [7 0 0 0])
-  ("index" .
-   [14 0 0 0 0])
-  ("QTextCharFormat" .
-   [1 0 0 0 0 0 0 1 1 4 0 1 0 0 0])
-  ("initializeHighlightColor" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0])
-  ("default" .
-   [7 0 0 0 3 1 0])
-  ("comment" .
-   [1 0 0 0 0 0 1])
-  ("string" .
-   [11 0 0 0 0 1])
-  ("setForeground" .
-   [0 0 0 0 0 0 0 6 1 0 0 1 1])
-  ("type_color" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("QColor" .
-   [10 0 0 1 1 0])
-  ("keyword_color" .
-   [1 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("preprocess_color" .
-   [1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("default_color" .
-   [1 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("comment_color" .
-   [1 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("string_color" .
-   [1 0 0 0 0 1 0 0 0 0 0 0])
-  ("variable_color" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("class_color" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("function_color" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("annotation_color" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0])
-  ("triple_quote_color" .
-   [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("commentFormat" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("setPen" .
-   [0 0 0 1 0 0])
-  ("typeFormat" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("setPattern" .
-   [3 0 0 0 0 0 0 1 0 1])
-  ("start_index" .
-   [3 0 0 0 0 0 0 0 0 0 0])
-  ("end_index" .
-   [10 0 0 0 0 0 3 1 0])
-  ("const" .
-   [14 0 0 0 0])
-  ("cout" .
-   [28 0 0 0])
-  ("t" .
-   [7])
-  ("qPrintable" .
-   [1 0 1 0 0 1 0 0 0 0])
-  ("s" .
-   [5])
-  ("tmp" .
-   [19 0 0])
-  ("temp_konoha_type" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("temp_konoha_keyword" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("NULL" .
-   [27 0 0 0])
-  ("if" .
-   [70 0])
-  ("line" .
-   [23 0 0 0])
-  ("char" .
-   [59 0 0 0])
-  ("malloc" .
-   [9 0 0 0 1 0])
-  ("sizeof" .
-   [22 0 1 0 1 0])
-  ("memset" .
-   [4 0 0 0 0 0])
-  ("300" .
-   [18 0 0])
-  ("free" .
-   [12 0 0 0])
-  ("copy_line" .
-   [2 0 0 3 5 0 0 0 3])
-  ("token" .
-   [126 0 0 0 0])
-  ("setParent" .
-   [1 0 0 0 0 0 0 0 1])
-  ("QPlainTextEdit" .
-   [0 0 0 0 0 1 1 1 0 0 0 0 0 0])
-  ("parent" .
-   [8 0 0 0 0 0])
-  ("return" .
-   [86 0 0 0 0 3])
-  ("class" .
-   [17 0 0 0 1])
-  ("length" .
-   [7 0 0 0 0 0])
-  ("i" .
-   [11])
-  ("border" .
-   [4 0 0 0 1 1])
-  ("pn_length" .
-   [0 0 0 0 0 0 1 0 0])
-  ("b" .
-   [1])
-  ("border_str" .
-   [0 0 0 0 0 0 0 0 0 1])
-  ("border_exp" .
-   [1 0 0 0 0 0 0 0 0 1])
-  ("start_position" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("kcursor" .
-   [3 0 0 0 0 0 0])
-  ("position" .
-   [4 0 0 0 1 0 0 0])
-  ("insertText" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("setPosition" .
-   [1 0 0 0 1 0 0 0 0 0 0])
-  ("cursor" .
-   [4 0 0 0 0 0])
-  ("annotationFormat" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0])
-  ("Qt" .
-   [2 0])
-  ("darkMagenta" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("annotation" .
-   [2 0 0 0 0 0 0 0 0 1])
-  ("new" .
-   [46 0 0])
-  ("annotation_Format" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("case" .
-   [42 0 0 0])
-  ("check" .
-   [4 0 0 0 0])
-  ("else" .
-   [33 0 0 0])
-  ("QChar" .
-   [1 0 0 0 0])
-  ("break" .
-   [32 0 0 0 0])
-  ("b_RAW_STRING" .
-   [0 0 0 1 0 1 0 0 0 0 0 0])
-  ("b_ANNOTATION" .
-   [0 0 0 0 1 2 0 1 0 0 0 0])
-  ("end_expression" .
-   [0 0 0 0 0 0 1 0 0 0 1 0 0 0])
-  ("toAscii" .
-   [0 0 0 1 0 0 0])
-  ("switch" .
-   [3 0 0 0 1 0])
-  ("b_SQ_RAW_STRING" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 1])
-  ("b_DQ_RAW_STRING" .
-   [0 0 0 0 0 0 1 2 0 0 0 0 0 0 0])
-  ("from" .
-   [4 0 0 0])
-  ("rawStringFormat" .
-   [0 0 0 0 1 1 0 1 0 0 0 0 0 0 0])
-  ("QTabWidget" .
-   [0 0 0 0 1 0 0 0 0 0])
-  ("raw_string_color" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("current_state" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("findFileSignal" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("SOEFileAreaWidget" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("FileName" .
-   [2 0 0 0 0 2 0 1])
-  ("current_directory" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 2 0 0 0 0])
-  ("setText" .
-   [2 0 0 1 0 0 0])
-  ("findFileSlot" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("f" .
-   [2])
-  ("main_text" .
-   [3 0 0 0 0 0 0 0 0])
-  ("SOETextEdit" .
-   [0 0 0 0 0 0 0 0 1 0 0])
-  ("emit" .
-   [1 0 0 0])
-  ("newTabSignal" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("last_text" .
-   [0 0 1 0 0 0 0 0 1])
-  ("setLastText" .
-   [0 0 0 0 0 0 0 1 0 0 1])
-  ("file" .
-   [1 0 0 0])
-  ("define" .
-   [19 0 0 0 0 0])
-  ("K_USING_BOX2D" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("K_USING_OPENCV" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("output" .
-   [2 0 0 0 0 0])
-  ("output_urn" .
-   [2 0 0 0 0 0 0 0 0 2])
-  ("ous" .
-   [25 0 0])
-  ("definition" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("Class" .
-   [4 0 0 0 0])
-  ("Reference" .
-   [0 0 0 0 1 0 0 0 0])
-  ("String" .
-   [32 0 1 0 0 0])
-  ("title" .
-   [3 0 0 0 0])
-  ("Members" .
-   [1 0 0 0 0 0 0])
-  ("reader" .
-   [1 0 0 0 0 0])
-  ("println" .
-   [17 0 0 0 0 0 0])
-  ("interface" .
-   [0 0 0 0 0 0 0 0 1])
-  ("input_urn" .
-   [0 0 0 0 0 1 0 0 0])
-  ("flush" .
-   [3 0 0 0 0])
-  ("close" .
-   [2 0 0 0 0])
-  ("bind" .
-   [9 0 0 0])
-  ("qt_func_form" .
-   [0 0 3 2 0 0 1 0 0 0 0 4])
-  ("class_name" .
-   [2 0 0 3 2 1 0 0 0 2])
-  ("toKonohaFuncForm" .
-   [0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0])
-  ("split" .
-   [1 0 0 0 0])
-  ("getSize" .
-   [3 0 0 12 0 0 0])
-  ("return_value_type" .
-   [1 0 0 0 0 0 4 2 0 1 0 1 2 0 0 0 13])
-  ("method_name" .
-   [1 0 1 0 1 0 0 0 0 0 0])
-  ("argument_name" .
-   [11 0 0 0 0 0 0 0 0 0 0 6 9])
-  ("argument_" .
-   [0 0 0 0 0 0 0 0 2])
-  ("arg_coutn" .
-   [0 0 0 0 1 0 0 0 0])
-  ("arg_count" .
-   [1 0 0 0 0 0 0 0 1])
-  ("arg_cou" .
-   [0 0 0 0 0 0 1])
-  ("makeC" .
-   [1 0 0 0 0])
-  ("OUT" .
-   [7 0 0])
-  ("EOL" .
-   [7 0 0])
-  ("virtual" .
-   [0 0 0 2 0 0 1])
-  ("virtual_flag" .
-   [0 0 0 0 0 0 0 0 4 0 0 2])
-  ("Null" .
-   [2 0 0 0])
-  ("tokenize" .
-   [1 0 0 0 0 0 0 0])
-  ("setElements" .
-   [0 0 0 0 1 0 0 0 0 0 0])
-  ("func_name" .
-   [3 0 0 1 1 0 0 1 1])
-  ("token_size" .
-   [0 0 0 0 0 1 1 0 1 1])
-  ("argument_number" .
-   [0 0 0 0 0 0 0 0 0 0 0 8 1 0 1])
-  ("replace" .
-   [6 0 0 0 0 0 0])
-  ("callFuncFormat" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("fea" .
-   [13 0 0])
-  ("array_flag" .
-   [1 0 0 0 0 0 0 0 0 1])
-  ("hogehoge" .
-   [5 0 0 0 0 0 0 0])
-  ("std" .
-   [12 0 0])
-  ("fprintf" .
-   [55 0 0 0 1 1 0])
-  ("stderr" .
-   [47 0 0 0 0 0])
-  ("cmd" .
-   [3 0 0])
-  ("binded_class" .
-   [0 0 0 0 0 0 2 0 0 0 0 0])
-  ("work_path" .
-   [0 0 0 2 0 0 0 0 0])
-  ("chdir" .
-   [2 0 0 0 0])
-  ("System" .
-   [7 0 0 0 0 0])
-  ("getter_flag" .
-   [0 0 0 0 0 0 3 0 0 0 0])
-  ("gfea" .
-   [4 0 0 1])
-  ("g" .
-   [3])
-  ("default_getter_name" .
-   [0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0])
-  ("sfea" .
-   [1 0 0 0])
-  ("startsWith" .
-   [0 0 0 0 1 0 1 0 0 0])
-  ("QPainter" .
-   [2 0 0 0 0 0 0 0])
-  ("data" .
-   [10 0 0 0])
-  ("ivalue" .
-   [2 0 0 0 1 0])
-  ("fmt" .
-   [2 0 0])
-  ("QApplication" .
-   [1 0 0 0 4 0 3 0 1 0 0 1])
-  ("argc" .
-   [21 0 0 0])
-  ("argv" .
-   [17 0 0 0])
-  ("app" .
-   [19 0 0])
-  ("ifndef" .
-   [2 0 0 0 0 0])
-  ("SAMPLE_HEAD" .
-   [1 0 0 0 0 0 1 0 0 0 0])
-  ("endif" .
-   [5 0 0 0 0])
-  ("public" .
-   [13 0 0 1 0 0])
-  ("QWidget" .
-   [3 0 0 0 0 0 0])
-  ("Widget" .
-   [1 0 0 0 0 0])
-  ("Gpi" .
-   [5 0 0])
-  ("private" .
-   [3 0 0 0 0 1 0])
-  ("Q_OBJECT" .
-   [0 0 0 0 0 0 1 0])
-  ("o" .
-   [2])
-  ("pos" .
-   [24 0 0])
-  ("QPixmap" .
-   [1 0 0 0 0 0 0])
-  ("QGraphicsItem" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("QGraphicsPixmapItem" .
-   [1 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 2])
-  ("move" .
-   [1 0 0 0])
-  ("movePosition" .
-   [2 0 0 0 0 0 1 1 0 0 0 0])
-  ("QPropertyAnimation" .
-   [1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("turnAround" .
-   [1 0 0 1 0 0 0 0 1 0])
-  ("set" .
-   [3 0 0])
-  ("500" .
-   [21 0 1])
-  ("QObject" .
-   [5 0 0 0 0 0 0])
-  ("target" .
-   [2 0 0 0 0 0])
-  ("propertyName" .
-   [0 0 0 0 0 0 0 0 0 0 1 0])
-  ("Q_PROPERTY" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("qreal" .
-   [1 0 0 0 0])
-  ("rotation" .
-   [2 0 0 0 0 0 0 0])
-  ("READ" .
-   [1 0 0 0])
-  ("WRITE" .
-   [1 0 0 0 0])
-  ("QGraphicsScene" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("addItem" .
-   [14 0 0 0 1 0 2])
-  ("QGraphicsView" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 2])
-  ("MovePosition" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("TurnAround" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("setMember" .
-   [0 0 0 1 0 0 0 0 0])
-  ("Print" .
-   [2 0 0 0 0])
-  ("QGraphicsLayout" .
-   [0 0 0 0 0 0 1 0 0 0 1 1 0 0 0])
-  ("QGraphicsEffect" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("QAccessibleObject" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("QIODevice" .
-   [0 0 0 1 0 0 0 0 1])
-  ("QValidator" .
-   [0 0 0 0 0 1 0 0 0 0])
-  ("QRunnable" .
-   [0 0 0 0 1 0 0 0 0])
-  ("QGraphicsObject" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("QLayout" .
-   [1 0 0 0 0 0 0])
-  ("QFlag" .
-   [2 0 0 0 0])
-  ("ret_v_" .
-   [3 0 0 0 0 0])
-  ("QTimeEdit" .
-   [0 0 0 0 0 1 0 0 0])
-  ("QWebFrame" .
-   [0 0 1 0 1 0 0 0 2])
-  ("QPainterPath" .
-   [0 0 0 1 0 1 2 0 0 0 0 1])
-  ("FillRule" .
-   [0 0 0 0 1 0 0 0])
-  ("QGraphicsTextItem" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
-  ("timer_event_func" .
-   [0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0])
-  ("ARRAY_SIZE" .
-   [0 0 4 1 0 1 0 0 0 0])
-  ("m_c_array" .
-   [0 0 0 0 1 0 0 0 0])
-  ("QGraphcisTextItem" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("1" .
-   [8])
-  ("margin-left" .
-   [3 0 0 0 1 0 0 0 0 0 0])
-  ("0%" .
-   [1 0])
-  ("auto" .
-   [1 0 0 0])
-  ("0" .
-   [1])
-  ("100%" .
-   [2 0 0 0])
-  ("300%" .
-   [1 0 0 0])
-  ("80%" .
-   [0 0 1])
-  ("opacity" .
-   [1 0 0 0 0 0 0])
-  ("css" .
-   [2 0 0])
-  ("document" .
-   [1 0 0 0 0 0 0 0])
-  ("ready" .
-   [1 0 0 0 0])
-  ("mySpiner" .
-   [1 0 0 0 0 0 0 0])
-  ("paintStage" .
-   [0 0 0 0 0 0 1 0 0 0])
-  ("ELEM_WALL" .
-   [1 0 0 0 0 0 0 1 0])
-  ("paintWorld" .
-   [1 0 0 0 0 0 1 0 1 0])
-  ("/usr/local/" .
-   [0 0 0 0 0 1 0 7 0 0 0])
-  ("/usr/local/lib/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("mouse_press_event_func" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("mouse_move_event_func" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("mouse_release_event_func" .
-   [0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("ELEM_SPACE" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("timerUpdateWorld" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("extern" .
-   [11 0 0 0 0 0])
-  ("ELEM_BLOCK" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("enum" .
-   [4 0 0 0])
-  ("BLOCK_TYPE" .
-   [1 0 0 1 0 2 0 0 0 0])
-  ("typedef" .
-   [8 0 0 0 0 0 0])
-  ("struct" .
-   [39 0 0 0 0 0])
-  ("FallBlock" .
-   [0 0 4 2 2 1 1 0 4])
-  ("sleep" .
-   [2 0 0 0 0])
-  ("block_falling_flag" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("fb_p" .
-   [8 0 0 0])
-  ("WORLD_ELEM" .
-   [1 0 0 0 1 0 0 0 0 0])
-  ("TYPE_SIMPLE" .
-   [0 0 0 0 0 0 1 0 0 0 0])
-  ("LD_LIBRARY_PATH" .
-   [0 0 0 1 0 1 0 0 0 0 0 0 0 0 0])
-  ("/home/onoda/" .
-   [0 0 0 0 0 0 1 0 0 2 0 0])
-  ("/home/onoda/develop/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("/home/onoda/develop/konoha-utils-read-only/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("/home/onoda/develop/konoha-utils-read-only/goccy/greadline/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("key_word_color_list" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("GREEN" .
-   [1 0 0 0 0])
-  ("RED" .
-   [1 0 0])
-  ("YELLOW" .
-   [1 0 0 0 0 0])
-  ("../package/konoha.i/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
-  ("1000" .
-   [4 0 0 0])
-  ("launch" .
-   [1 0 0 0 0 0])
-  ("shell" .
-   [3 0 0 0 0])
-  ("applyForce" .
-   [0 0 0 0 0 0 1 0 0 0])
-  ("scenePos" .
-   [9 0 0 0 0 0 0 1])
-  ("point" .
-   [5 0 0 0 0])
-  ("QPointF" .
-   [17 0 0 1 0 2 1])
-  ("scene" .
-   [15 0 0 0 0])
-  ("force" .
-   [3 0 0 0 0])
-  ("new_QPointF" .
-   [0 0 0 0 0 0 3 6 1 1 5])
-  ("mouse" .
-   [1 0 0 0 0])
-  ("pressed" .
-   [2 0 0 0 0 0 0])
-  ("released" .
-   [1 0 0 0 0 0 0 0])
-  ("QGraphicsEllipseItem" .
-   [1 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 1])
-  ("QMouseEvent" .
-   [0 0 0 0 1 0 0 0 0 0 0])
-  ("QGraphicsSceneMouseEvent" .
-   [1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("new_StaticRect" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("computeForce" .
-   [0 0 0 0 0 0 0 0 1 0 0 0])
-  ("float" .
-   [40 0 0 0 0])
-  ("Math" .
-   [7 0 0 0])
-  ("pow" .
-   [3 0 0])
-  ("distance" .
-   [1 0 0 0 0 0 0 0])
-  ("magic" .
-   [2 0 0 0 0])
-  ("force_x" .
-   [1 0 0 0 0 0 0])
-  ("force_y" .
-   [1 0 0 0 0 0 0])
-  ("10" .
-   [6 0])
-  ("5000" .
-   [2 0 0 0])
-  ("ceiling" .
-   [3 0 0 0 0 0 0])
-  ("l_wall" .
-   [1 0 0 0 0 0])
-  ("r_wall" .
-   [1 0 0 0 0 0])
-  ("exec" .
-   [2 0 0 0])
-  ("AngryBird" .
-   [0 0 0 3 0 1 0 0 0])
-  ("this" .
-   [10 0 0 0])
-  ("delegate" .
-   [7 0 0 0 0 0 0 0])
-  ("view" .
-   [3 0 0 0])
-  ("show" .
-   [6 0 0 0])
-  ("_world" .
-   [1 0 0 0 2 0])
-  ("rect" .
-   [12 0 0 0])
-  ("setPos" .
-   [4 0 0 0 0 1])
-  ("moved" .
-   [1 0 0 0 0])
-  ("press" .
-   [1 0 0 0 0])
-  ("setColorAt" .
-   [0 0 0 0 0 0 0 0 0 1])
-  ("_ground" .
-   [1 0 0 0 0 0 0])
-  ("_ceiling" .
-   [1 0 0 0 0 0 1 0])
-  ("_l_wall" .
-   [1 0 0 0 0 0 0])
-  ("_r_wall" .
-   [1 0 0 0 0 0 0])
-  ("_point" .
-   [2 0 0 0 0 0])
-  ("setColor" .
-   [3 0 0 0 0 0 1 0])
-  ("_shell" .
-   [5 0 0 0 1 0])
-  ("addEvent" .
-   [3 0 0 0 0 0 0 0])
-  ("empty" .
-   [1 0 0 0 0])
-  ("_launch_width" .
-   [0 0 0 0 0 0 0 0 0 0 1 1 0])
-  ("_launch_height" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("_shell_width" .
-   [1 0 0 0 0 0 0 0 0 9 1 1])
-  ("_shell_height" .
-   [0 0 0 0 0 0 0 0 5 3 0 0 0])
-  ("_point_height" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("_stage_width" .
-   [0 0 0 0 0 0 0 0 1 3 1 1])
-  ("_stage_height" .
-   [0 0 0 1 3 0 1 0 1 0 0 0 0])
-  ("_center_y" .
-   [3 0 0 1 2 0 0 0 2])
-  ("sqrt" .
-   [1 0 0 0])
-  ("_radius" .
-   [1 0 0 0 0 0 0])
-  ("center_x" .
-   [1 0 1 2 0 0 0 3])
-  ("_max_radius" .
-   [2 0 0 4 0 2 0 0 0 0 0])
-  ("cos" .
-   [1 0 0])
-  ("pf" .
-   [3 0])
-  ("_center_x" .
-   [1 0 0 0 1 0 0 0 3])
-  ("scene_pos" .
-   [4 0 0 0 0 0 0 0 0])
-  ("current_pos" .
-   [0 0 0 0 0 0 0 1 1 0 0])
-  ("center_y" .
-   [2 0 0 0 0 0 0 0])
-  ("_g_path" .
-   [2 0 0 1 0 0 0])
-  ("_pen" .
-   [3 0 0 0])
-  ("_p_path" .
-   [2 0 0 0 0 0 0])
-  ("_scene" .
-   [8 0 0 0 0 2])
-  ("_pen_width" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("p_path" .
-   [3 0 0 0 1 0])
-  ("_rect1" .
-   [1 0 0 0 0 0])
-  ("setFrequencyHz" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("_rect2" .
-   [1 0 0 0 0 0])
-  ("_rect3" .
-   [1 0 0 0 0 0])
-  ("_rect4" .
-   [1 0 0 0 0 0])
-  ("_rect5" .
-   [1 0 0 0 0 0])
-  ("p_path1" .
-   [2 0 0 0 0 0 0])
-  ("united" .
-   [1 0 0 0 0 0])
-  ("p_path2" .
-   [4 0 0 0 0 0 0])
-  ("new_StaticEllipse" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("_range" .
-   [1 0 0 0 0 0])
-  ("max_radius" .
-   [0 0 1 1 1 0 1 0 0 0])
-  ("ppf1" .
-   [1 0 0 0])
-  ("../package/konoha." .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("kObject" .
-   [2 0 0 0 0 0 1])
-  ("dummy" .
-   [2 0 0 0 0])
-  ("~/Desktop/" .
-   [0 0 0 0 0 0 1 0 0 0])
-  ("~/develop/" .
-   [0 0 0 0 0 0 0 1 0 0])
-  ("~/develop/Qtgen/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("~/develop/Qtgen/README" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("~/develop/Qtgen/konoha.qt4/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("using" .
-   [0 0 0 0 1])
-  ("namespace" .
-   [0 0 0 0 0 0 0 0 1])
-  ("ifdef" .
-   [2 0 0 0 0])
-  ("__cplusplus" .
-   [0 0 0 0 1 0 0 0 0 0 0])
-  ("develop/old-konoha/konoha/cmake_release" .
-   [1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("install" .
-   [1 0 0 0 0 0 0])
-  ("tcp_server" .
-   [1 0 0 1 0 1 0 1 0 0])
-  ("port" .
-   [4 0 0 0])
-  ("sendData" .
-   [1 0 0 0 0 0 0 0])
-  ("client" .
-   [3 0 0 0 0 0])
-  ("QHostAddress" .
-   [1 0 0 0 0 1 0 0 0 0 0 0])
-  ("hadr" .
-   [1 0 0 0])
-  ("qDebug" .
-   [2 0 0 0 0 0])
-  ("ds" .
-   [2 0])
-  ("writeRawData" .
-   [0 0 0 0 0 0 0 1 0 0 0 0])
-  ("toLocal8Bit" .
-   [0 0 0 0 1 0 0 0 0 0 0])
-  ("socket" .
-   [0 0 0 0 0 1])
-  ("static_cast" .
-   [0 0 0 0 0 0 0 0 0 1 0])
-  ("KQTcpSocket" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("new_QGraphicsRectItem" .
-   [0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0])
-  ("field_front" .
-   [0 0 0 0 0 1 0 0 0 0 0])
-  ("_field_back_iamge" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("_field_front_iamge" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("_scene_width" .
-   [0 0 0 0 0 0 0 0 0 2 0 1])
-  ("_scene_height" .
-   [0 0 0 0 0 0 0 0 1 1 1 0 0])
-  ("new_QGraphicsPixmapItem" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1])
-  ("bird" .
-   [5 0 0 0])
-  ("_items" .
-   [2 0 0 0 0 0])
-  ("pig" .
-   [3 0 0])
-  ("_bird" .
-   [3 0 0 0 0])
-  ("_pig" .
-   [2 0 0 0])
-  ("_log_te" .
-   [2 0 0 0 1 0 0])
-  ("QVBoxLayout" .
-   [0 0 0 0 1 0 0 0 0 0 0])
-  ("QGraphicsSecne" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("ellipse" .
-   [7 0 0 0 0 0 0])
-  ("scene_rect" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("setScene" .
-   [1 0 0 0 0 0 0 0])
-  ("ellipse_rect" .
-   [1 0 0 0 0 0 0 0 0 0 1 0])
-  ("sub_layout" .
-   [0 0 0 2 0 0 0 0 0 0])
-  ("main_layout" .
-   [0 0 0 0 3 0 0 0 0 0 0])
-  ("b1Clicked" .
-   [0 0 1 1 0 0 0 0 0])
-  ("hide" .
-   [2 0 0 0])
-  ("addWidget" .
-   [1 0 0 0 0 0 0 0 0])
-  ("b2" .
-   [2 0])
-  ("b2Clicked" .
-   [0 0 0 0 0 1 0 0 0])
-  ("b3" .
-   [1 0])
-  ("b3Clicked" .
-   [0 0 1 0 0 0 0 0 0])
-  ("QSize" .
-   [1 0 1 0 0])
-  ("w_size" .
-   [0 0 2 0 0 0])
-  ("scene_color" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("scene_brush" .
-   [0 0 0 0 0 0 0 0 0 3 0])
-  ("ellipse_color" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("ellipse_brush" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("grad_start_pos" .
-   [0 0 0 2 2 0 0 0 0 0 0 0 0 1])
-  ("grad_final_pos" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("grad_start_color" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("setNamedColor" .
-   [0 0 0 0 1 0 0 1 1 0 0 0 0])
-  ("r_grad_center" .
-   [0 0 0 1 0 1 0 1 1 0 0 0 0])
-  ("setX" .
-   [2 0 0 0])
-  ("setY" .
-   [2 0 0 0])
-  ("r_grad_focal_point" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2])
-  ("QPen" .
-   [1 0 0 0])
-  ("ellipse_pen" .
-   [1 0 0 0 0 0 0 0 0 1 0])
-  ("ellipse_pen_color" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0])
-  ("r_grad_start_color" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("Ui_MainWindow" .
-   [0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("import" .
-   [2 0 0 0 0 0])
-  ("mainwindow" .
-   [0 0 0 0 0 0 0 0 1 1])
-  ("ui" .
-   [2 0])
-  ("setupUi" .
-   [2 0 0 0 0 0 0])
-  ("QtGui" .
-   [1 0 0 0 0])
-  ("window" .
-   [3 0 0 0 0 0])
-  ("classes" .
-   [3 0 0 0 0 0 0])
-  ("methods" .
-   [5 0 0 1 0 0 0])
-  ("QWiget" .
-   [1 0 0 0 0 0])
-  ("widget" .
-   [1 0 0 0 0 0])
-  ("key" .
-   [7 0 0])
-  ("dmap" .
-   [5 0 0 0])
-  ("sorted" .
-   [1 0 1 0 0 0])
-  ("loc" .
-   [1 0 0])
-  ("strcmpr" .
-   [1 0 0 0 0 0 0])
-  ("./a.out" .
-   [0 0 0 1 0 0 1])
-  ("mpi-test.cpp" .
-   [0 0 0 1 0 0 0 0 0 0 0 0])
-  ("./mpi_extractor" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("getenv" .
-   [1 0 0 0 0 0])
-  ("konoha.qt4" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("../qt-ir-only-qwidget" .
-   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("konoha.qt4/error-log" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("Alignment" .
-   [1 0 0 0 0 0 0 0 0])
-  ("AlignmentFlag" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("mymy_int" .
-   [0 0 0 1 1 0 0 0])
-  ("../ir2src-generator/" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("fugafuga" .
-   [2 0 0 0 0 0 0 0])
-  ("genir" .
-   [1 0 0 0 0])
-  ("../../FFI/" .
-   [0 0 0 0 0 0 0 0 0 1])
-  ("outj" .
-   [2 0 0 0])
-  ("jobject" .
-   [1 0 0 0 0 0 0])
-  ("memcpy" .
-   [1 0 0 0 0 0])
-  ("/usr/local/konoha/package/1.0/konoha.i/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("/home/onoda/.konoha/package/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("/home/onoda/.konoha/package/1.0/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("Frame" .
-   [3 0 0 0 1])
-  ("win" .
-   [1 0 0])
-  ("//bin/" .
-   [0 0 1 0 0 0])
-  ("cplusplus__" .
-   [0 0 1 0 0 0 0 0 0 0 0])
-  ("b1" .
-   [1 0])
-  ("Scene" .
-   [6 0 0 0 0])
-  ("castA" .
-   [1 0 0 0 0])
-  ("K_USING_BMGC" .
-   [0 0 0 0 0 0 0 0 1 0 1 0])
-  ("Rope" .
-   [6 0 0 0])
-  ("rope" .
-   [1 0 0 0])
-  ("hoge" .
-   [1 0 0 0])
-  ("stdio" .
-   [6 0 0 0 0])
-  ("base_object" .
-   [7 0 0 0 0 0 0 0 1 1 5])
-  ("object_t" .
-   [4 0 1 0 3 0 4 1])
-  ("fmethod" .
-   [8 0 0 0 0 0 0])
-  ("classinfo" .
-   [6 0 0 0 0 0 1 1 0])
-  ("base_get_area" .
-   [4 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("self" .
-   [15 0 0 0])
-  ("rect_object" .
-   [5 0 0 0 0 0 0 0 0 1 0])
-  ("super" .
-   [7 0 1 0 0])
-  ("rect_get_area" .
-   [2 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("circle_object" .
-   [3 0 0 0 0 0 0 0 0 0 1 0 2])
-  ("circle_get_area" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("M_PI" .
-   [2 0 0 0])
-  ("base_methods" .
-   [5 0 0 0 0 0 0 0 0 0 0 0])
-  ("circle" .
-   [10 0 0 0 0 1])
-  ("new_rect" .
-   [3 0 0 0 1 0 0 1])
-  ("new_circle" .
-   [3 0 0 0 0 1 0 0 0 0])
-  ("o0" .
-   [7 0])
-  ("20" .
-   [3 0])
-  ("o1" .
-   [6 0])
-  ("v0" .
-   [7 0])
-  ("v1" .
-   [4 0])
-  ("MYSQL" .
-   [1 0 0 0 0])
-  ("mysql" .
-   [2 0 0 0 0])
-  ("mysql_buf" .
-   [2 0 0 0 0 0 0 0 0])
-  ("mysql_error" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("op" .
-   [18 0])
-  ("RET" .
-   [2 0 0])
-  ("opcode_next" .
-   [3 0 0 0 1 0 0 0 0 0 0])
-  ("VM_Instruction_Table" .
-   [0 0 1 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("__LINE__" .
-   [2 0 0 0 0 0 0 0])
-  ("function" .
-   [2 0 0 0 0 0 0 0])
-  ("at" .
-   [1 0])
-  ("on" .
-   [1 0])
-  ("__FILE__" .
-   [1 0 0 0 0 0 0 0])
-  ("column_size" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("l" .
-   [1])
-  ("isalpha" .
-   [0 0 0 0 0 1 0])
-  ("ConsCell_t" .
-   [1 0 0 0 1 0 0 0 0 1])
-  ("T_ADD" .
-   [2 0 0 0 1])
-  ("T_MUL" .
-   [2 0 0 1 0])
-  ("T_DIV" .
-   [2 0 0 0 1])
-  ("T_LT" .
-   [3 0 0 1])
-  ("T_GT" .
-   [2 0 0 2])
-  ("T" .
-   [1])
-  ("T_IF" .
-   [2 0 0 0])
-  ("T_SETQ" .
-   [1 0 0 0 0 0])
-  ("T_DEFUN" .
-   [1 0 0 0 1 0 0])
-  ("T_FUNC" .
-   [1 0 0 1 1 0])
-  ("T_ARGUMENT" .
-   [1 0 0 1 0 0 0 0 0 0])
-  ("token_array" .
-   [2 0 0 0 1 2 7 3 3 0 3])
-  ("T_SUB" .
-   [3 0 0 0 0])
-  ("root" .
-   [10 0 0 0])
-  ("T_NUMBER" .
-   [0 0 0 0 0 1 0 0])
-  ("T_BEGIN" .
-   [0 0 0 0 1 0 0])
-  ("sp" .
-   [1 0])
-  ("new_VirtualMachineByteCodeLine" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("Compiler_delete" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("OPiLTC" .
-   [1 0 0 0 0 0])
-  ("data2" .
-   [1 0 0 0 0])
-  ("num" .
-   [1 0 0])
-  ("remove_counter" .
-   [0 0 0 0 0 0 0 3 0 0 0 0 0 0])
-  ("OPIF" .
-   [1 0 0 0])
-  ("OPJMP" .
-   [1 0 0 0 1])
-  ("code" .
-   [3 0 0 0])
-  ("pc2" .
-   [2 0 0])
-  ("OPRET" .
-   [3 0 0 1 1])
-  ("jmp_index" .
-   [1 0 0 0 0 1 0 0 0])
-  ("ByteCode" .
-   [0 0 0 1 0 0 0 0])
-  ("opnext" .
-   [2 0 0 0 1 0])
-  ("jmp_table" .
-   [0 0 0 0 0 0 1 0 0])
-  ("VirtualMachine_createDirectThreadingCode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("op_pointer" .
-   [4 0 0 0 0 0 1 0 0 0])
-  ("next" .
-   [2 0 0 0])
-  ("m" .
-   [1])
-  ("OPiADDRETC" .
-   [0 0 0 0 0 2 1 1 0 0])
-  ("OPLJMPC" .
-   [0 0 0 0 1 0 1])
-  ("register" .
-   [2 0 0 0 0 0 0 0])
-  ("creal" .
-   [1 0 0 0 0])
-  ("carg" .
-   [1 0 0 0])
-  ("long" .
-   [1 0 0 0])
-  ("kComplex" .
-   [1 0 0 0 0 0 0 0])
-  ("MN_opMINUS" .
-   [1 0 0 0 0 0 0 1 0 0])
-  ("goto" .
-   [2 0 0 0])
-  ("espidx" .
-   [1 0 0 0 0 0])
-  ("L_exit" .
-   [2 0 0 0 0 0])
-  ("total" .
-   [2 0 0 0 0])
-  ("counter" .
-   [1 0 0 0 0 0 0])
-  ("sum" .
-   [6 0 0])
-  ("toInt" .
+  ("uline" .
    [1 0 0 0 0])
   ("fileid" .
    [3 0 0 0 0 0])
-  ("uline" .
+  ("toInt" .
    [1 0 0 0 0])
-  ("kushort_t" .
-   [1 0 0 0 0 0 0 0 0])
-  ("8" .
+  ("sum" .
+   [6 0 0])
+  ("counter" .
+   [1 0 0 0 0 0 0])
+  ("total" .
+   [2 0 0 0 0])
+  ("L_exit" .
+   [2 0 0 0 0 0])
+  ("espidx" .
+   [1 0 0 0 0 0])
+  ("goto" .
+   [2 0 0 0])
+  ("MN_opMINUS" .
+   [1 0 0 0 0 0 0 1 0 0])
+  ("kComplex" .
+   [1 0 0 0 0 0 0 0])
+  ("long" .
+   [1 0 0 0])
+  ("carg" .
+   [1 0 0 0])
+  ("creal" .
+   [1 0 0 0 0])
+  ("register" .
+   [2 0 0 0 0 0 0 0])
+  ("OPLJMPC" .
+   [0 0 0 0 1 0 1])
+  ("OPiADDRETC" .
+   [0 0 0 0 0 2 1 1 0 0])
+  ("m" .
    [1])
-  ("FILELOG_MEMORY_SIZE" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("KFree" .
-   [2 0 0 0 0])))
+  ("next" .
+   [2 0 0 0])
+  ("op_pointer" .
+   [4 0 0 0 0 0 1 0 0 0])
+  ("VirtualMachine_createDirectThreadingCode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("jmp_table" .
+   [0 0 0 0 0 0 1 0 0])
+  ("opnext" .
+   [2 0 0 0 1 0])
+  ("ByteCode" .
+   [0 0 0 1 0 0 0 0])
+  ("jmp_index" .
+   [1 0 0 0 0 1 0 0 0])
+  ("OPRET" .
+   [3 0 0 1 1])
+  ("pc2" .
+   [2 0 0])
+  ("code" .
+   [3 0 0 0])
+  ("OPJMP" .
+   [1 0 0 0 1])
+  ("OPIF" .
+   [1 0 0 0])
+  ("remove_counter" .
+   [0 0 0 0 0 0 0 3 0 0 0 0 0 0])
+  ("num" .
+   [1 0 0])
+  ("data2" .
+   [1 0 0 0 0])
+  ("OPiLTC" .
+   [1 0 0 0 0 0])
+  ("Compiler_delete" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("new_VirtualMachineByteCodeLine" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("sp" .
+   [1 0])
+  ("T_BEGIN" .
+   [0 0 0 0 1 0 0])
+  ("T_NUMBER" .
+   [0 0 0 0 0 1 0 0])
+  ("root" .
+   [10 0 0 0])
+  ("T_SUB" .
+   [3 0 0 0 0])
+  ("token_array" .
+   [2 0 0 0 1 2 7 3 3 0 3])
+  ("T_ARGUMENT" .
+   [1 0 0 1 0 0 0 0 0 0])
+  ("T_FUNC" .
+   [1 0 0 1 1 0])
+  ("T_DEFUN" .
+   [1 0 0 0 1 0 0])
+  ("T_SETQ" .
+   [1 0 0 0 0 0])
+  ("T_IF" .
+   [2 0 0 0])
+  ("T" .
+   [1])
+  ("T_GT" .
+   [2 0 0 2])
+  ("T_LT" .
+   [3 0 0 1])
+  ("T_DIV" .
+   [2 0 0 0 1])
+  ("T_MUL" .
+   [2 0 0 1 0])
+  ("T_ADD" .
+   [2 0 0 0 1])
+  ("ConsCell_t" .
+   [1 0 0 0 1 0 0 0 0 1])
+  ("isalpha" .
+   [0 0 0 0 0 1 0])
+  ("l" .
+   [1])
+  ("column_size" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("__FILE__" .
+   [1 0 0 0 0 0 0 0])
+  ("on" .
+   [1 0])
+  ("at" .
+   [1 0])
+  ("function" .
+   [2 0 0 0 0 0 0 0])
+  ("__LINE__" .
+   [2 0 0 0 0 0 0 0])
+  ("VM_Instruction_Table" .
+   [0 0 1 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("opcode_next" .
+   [3 0 0 0 1 0 0 0 0 0 0])
+  ("RET" .
+   [2 0 0])
+  ("op" .
+   [18 0])
+  ("mysql_error" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("mysql_buf" .
+   [2 0 0 0 0 0 0 0 0])
+  ("mysql" .
+   [2 0 0 0 0])
+  ("MYSQL" .
+   [1 0 0 0 0])
+  ("v1" .
+   [4 0])
+  ("v0" .
+   [7 0])
+  ("o1" .
+   [6 0])
+  ("20" .
+   [3 0])
+  ("o0" .
+   [7 0])
+  ("new_circle" .
+   [3 0 0 0 0 1 0 0 0 0])
+  ("new_rect" .
+   [3 0 0 0 1 0 0 1])
+  ("circle" .
+   [10 0 0 0 0 1])
+  ("base_methods" .
+   [5 0 0 0 0 0 0 0 0 0 0 0])
+  ("M_PI" .
+   [2 0 0 0])
+  ("circle_get_area" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("circle_object" .
+   [3 0 0 0 0 0 0 0 0 0 1 0 2])
+  ("rect_get_area" .
+   [2 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("super" .
+   [7 0 1 0 0])
+  ("rect_object" .
+   [5 0 0 0 0 0 0 0 0 1 0])
+  ("self" .
+   [15 0 0 0])
+  ("base_get_area" .
+   [4 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("classinfo" .
+   [6 0 0 0 0 0 1 1 0])
+  ("fmethod" .
+   [8 0 0 0 0 0 0])
+  ("object_t" .
+   [4 0 1 0 3 0 4 1])
+  ("base_object" .
+   [7 0 0 0 0 0 0 0 1 1 5])
+  ("stdio" .
+   [6 0 0 0 0])
+  ("hoge" .
+   [1 0 0 0])
+  ("rope" .
+   [1 0 0 0])
+  ("Rope" .
+   [6 0 0 0])
+  ("K_USING_BMGC" .
+   [0 0 0 0 0 0 0 0 1 0 1 0])
+  ("castA" .
+   [1 0 0 0 0])
+  ("Scene" .
+   [6 0 0 0 0])
+  ("b1" .
+   [1 0])
+  ("cplusplus__" .
+   [0 0 1 0 0 0 0 0 0 0 0])
+  ("//bin/" .
+   [0 0 1 0 0 0])
+  ("win" .
+   [1 0 0])
+  ("Frame" .
+   [3 0 0 0 1])
+  ("/home/onoda/.konoha/package/1.0/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("/home/onoda/.konoha/package/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("/usr/local/konoha/package/1.0/konoha.i/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("memcpy" .
+   [1 0 0 0 0 0])
+  ("jobject" .
+   [1 0 0 0 0 0 0])
+  ("outj" .
+   [2 0 0 0])
+  ("../../FFI/" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("genir" .
+   [1 0 0 0 0])
+  ("fugafuga" .
+   [2 0 0 0 0 0 0 0])
+  ("../ir2src-generator/" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("mymy_int" .
+   [0 0 0 1 1 0 0 0])
+  ("AlignmentFlag" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Alignment" .
+   [1 0 0 0 0 0 0 0 0])
+  ("konoha.qt4/error-log" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("../qt-ir-only-qwidget" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("konoha.qt4" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("getenv" .
+   [1 0 0 0 0 0])
+  ("./mpi_extractor" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("mpi-test.cpp" .
+   [0 0 0 1 0 0 0 0 0 0 0 0])
+  ("./a.out" .
+   [0 0 0 1 0 0 1])
+  ("strcmpr" .
+   [1 0 0 0 0 0 0])
+  ("loc" .
+   [1 0 0])
+  ("sorted" .
+   [1 0 1 0 0 0])
+  ("dmap" .
+   [5 0 0 0])
+  ("key" .
+   [7 0 0])
+  ("widget" .
+   [1 0 0 0 0 0])
+  ("QWiget" .
+   [1 0 0 0 0 0])
+  ("methods" .
+   [5 0 0 1 0 0 0])
+  ("classes" .
+   [3 0 0 0 0 0 0])
+  ("window" .
+   [3 0 0 0 0 0])
+  ("QtGui" .
+   [1 0 0 0 0])
+  ("setupUi" .
+   [2 0 0 0 0 0 0])
+  ("ui" .
+   [2 0])
+  ("mainwindow" .
+   [0 0 0 0 0 0 0 0 1 1])
+  ("import" .
+   [2 0 0 0 0 0])
+  ("Ui_MainWindow" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("r_grad_start_color" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("ellipse_pen_color" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0])
+  ("ellipse_pen" .
+   [1 0 0 0 0 0 0 0 0 1 0])
+  ("QPen" .
+   [1 0 0 0])
+  ("r_grad_focal_point" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("setY" .
+   [2 0 0 0])
+  ("setX" .
+   [2 0 0 0])
+  ("r_grad_center" .
+   [0 0 0 1 0 1 0 1 1 0 0 0 0])
+  ("setNamedColor" .
+   [0 0 0 0 1 0 0 1 1 0 0 0 0])
+  ("grad_start_color" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("grad_final_pos" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("grad_start_pos" .
+   [0 0 0 2 2 0 0 0 0 0 0 0 0 1])
+  ("ellipse_brush" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("ellipse_color" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("scene_brush" .
+   [0 0 0 0 0 0 0 0 0 3 0])
+  ("scene_color" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("w_size" .
+   [0 0 2 0 0 0])
+  ("QSize" .
+   [1 0 1 0 0])
+  ("b3Clicked" .
+   [0 0 1 0 0 0 0 0 0])
+  ("b3" .
+   [1 0])
+  ("b2Clicked" .
+   [0 0 0 0 0 1 0 0 0])
+  ("b2" .
+   [2 0])
+  ("addWidget" .
+   [1 0 0 0 0 0 0 0 0])
+  ("hide" .
+   [2 0 0 0])
+  ("b1Clicked" .
+   [0 0 1 1 0 0 0 0 0])
+  ("main_layout" .
+   [0 0 0 0 3 0 0 0 0 0 0])
+  ("sub_layout" .
+   [0 0 0 2 0 0 0 0 0 0])
+  ("ellipse_rect" .
+   [1 0 0 0 0 0 0 0 0 0 1 0])
+  ("setScene" .
+   [1 0 0 0 0 0 0 0])
+  ("scene_rect" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("ellipse" .
+   [7 0 0 0 0 0 0])
+  ("QGraphicsSecne" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("QVBoxLayout" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("_log_te" .
+   [2 0 0 0 1 0 0])
+  ("_pig" .
+   [2 0 0 0])
+  ("_bird" .
+   [3 0 0 0 0])
+  ("pig" .
+   [3 0 0])
+  ("_items" .
+   [2 0 0 0 0 0])
+  ("bird" .
+   [5 0 0 0])
+  ("new_QGraphicsPixmapItem" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1])
+  ("_scene_height" .
+   [0 0 0 0 0 0 0 0 1 1 1 0 0])
+  ("_scene_width" .
+   [0 0 0 0 0 0 0 0 0 2 0 1])
+  ("_field_front_iamge" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("_field_back_iamge" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("field_front" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("new_QGraphicsRectItem" .
+   [0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0])
+  ("KQTcpSocket" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("static_cast" .
+   [0 0 0 0 0 0 0 0 0 1 0])
+  ("socket" .
+   [0 0 0 0 0 1])
+  ("toLocal8Bit" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("writeRawData" .
+   [0 0 0 0 0 0 0 1 0 0 0 0])
+  ("ds" .
+   [2 0])
+  ("qDebug" .
+   [2 0 0 0 0 0])
+  ("hadr" .
+   [1 0 0 0])
+  ("QHostAddress" .
+   [1 0 0 0 0 1 0 0 0 0 0 0])
+  ("client" .
+   [3 0 0 0 0 0])
+  ("sendData" .
+   [1 0 0 0 0 0 0 0])
+  ("port" .
+   [4 0 0 0])
+  ("tcp_server" .
+   [1 0 0 1 0 1 0 1 0 0])
+  ("install" .
+   [1 0 0 0 0 0 0])
+  ("develop/old-konoha/konoha/cmake_release" .
+   [1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("__cplusplus" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("ifdef" .
+   [2 0 0 0 0])
+  ("namespace" .
+   [0 0 0 0 0 0 0 0 1])
+  ("using" .
+   [0 0 0 0 1])
+  ("~/develop/Qtgen/konoha.qt4/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("~/develop/Qtgen/README" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("~/develop/Qtgen/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("~/develop/" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("~/Desktop/" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("dummy" .
+   [2 0 0 0 0])
+  ("kObject" .
+   [2 0 0 0 0 0 1])
+  ("../package/konoha." .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("ppf1" .
+   [1 0 0 0])
+  ("max_radius" .
+   [0 0 1 1 1 0 1 0 0 0])
+  ("_range" .
+   [1 0 0 0 0 0])
+  ("new_StaticEllipse" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("p_path2" .
+   [4 0 0 0 0 0 0])
+  ("united" .
+   [1 0 0 0 0 0])
+  ("p_path1" .
+   [2 0 0 0 0 0 0])
+  ("_rect5" .
+   [1 0 0 0 0 0])
+  ("_rect4" .
+   [1 0 0 0 0 0])
+  ("_rect3" .
+   [1 0 0 0 0 0])
+  ("_rect2" .
+   [1 0 0 0 0 0])
+  ("setFrequencyHz" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("_rect1" .
+   [1 0 0 0 0 0])
+  ("p_path" .
+   [3 0 0 0 1 0])
+  ("_pen_width" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("_scene" .
+   [8 0 0 0 0 2])
+  ("_p_path" .
+   [2 0 0 0 0 0 0])
+  ("_pen" .
+   [3 0 0 0])
+  ("_g_path" .
+   [2 0 0 1 0 0 0])
+  ("center_y" .
+   [2 0 0 0 0 0 0 0])
+  ("current_pos" .
+   [0 0 0 0 0 0 0 1 1 0 0])
+  ("scene_pos" .
+   [4 0 0 0 0 0 0 0 0])
+  ("_center_x" .
+   [1 0 0 0 1 0 0 0 3])
+  ("pf" .
+   [3 0])
+  ("cos" .
+   [1 0 0])
+  ("_max_radius" .
+   [2 0 0 4 0 2 0 0 0 0 0])
+  ("center_x" .
+   [1 0 1 2 0 0 0 3])
+  ("_radius" .
+   [1 0 0 0 0 0 0])
+  ("sqrt" .
+   [1 0 0 0])
+  ("_center_y" .
+   [3 0 0 1 2 0 0 0 2])
+  ("_stage_height" .
+   [0 0 0 1 3 0 1 0 1 0 0 0 0])
+  ("_stage_width" .
+   [0 0 0 0 0 0 0 0 1 3 1 1])
+  ("_point_height" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("_shell_height" .
+   [0 0 0 0 0 0 0 0 5 3 0 0 0])
+  ("_shell_width" .
+   [1 0 0 0 0 0 0 0 0 9 1 1])
+  ("_launch_height" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("_launch_width" .
+   [0 0 0 0 0 0 0 0 0 0 1 1 0])
+  ("empty" .
+   [1 0 0 0 0])
+  ("addEvent" .
+   [3 0 0 0 0 0 0 0])
+  ("_shell" .
+   [5 0 0 0 1 0])
+  ("setColor" .
+   [3 0 0 0 0 0 1 0])
+  ("_point" .
+   [2 0 0 0 0 0])
+  ("_r_wall" .
+   [1 0 0 0 0 0 0])
+  ("_l_wall" .
+   [1 0 0 0 0 0 0])
+  ("_ceiling" .
+   [1 0 0 0 0 0 1 0])
+  ("_ground" .
+   [1 0 0 0 0 0 0])
+  ("setColorAt" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("press" .
+   [1 0 0 0 0])
+  ("moved" .
+   [1 0 0 0 0])
+  ("setPos" .
+   [4 0 0 0 0 1])
+  ("rect" .
+   [12 0 0 0])
+  ("_world" .
+   [1 0 0 0 2 0])
+  ("show" .
+   [6 0 0 0])
+  ("view" .
+   [3 0 0 0])
+  ("delegate" .
+   [7 0 0 0 0 0 0 0])
+  ("this" .
+   [10 0 0 0])
+  ("AngryBird" .
+   [0 0 0 3 0 1 0 0 0])
+  ("exec" .
+   [2 0 0 0])
+  ("r_wall" .
+   [1 0 0 0 0 0])
+  ("l_wall" .
+   [1 0 0 0 0 0])
+  ("ceiling" .
+   [3 0 0 0 0 0 0])
+  ("5000" .
+   [2 0 0 0])
+  ("10" .
+   [6 0])
+  ("force_y" .
+   [1 0 0 0 0 0 0])
+  ("force_x" .
+   [1 0 0 0 0 0 0])
+  ("magic" .
+   [2 0 0 0 0])
+  ("distance" .
+   [1 0 0 0 0 0 0 0])
+  ("pow" .
+   [3 0 0])
+  ("Math" .
+   [7 0 0 0])
+  ("float" .
+   [40 0 0 0 0])
+  ("computeForce" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("new_StaticRect" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("QGraphicsSceneMouseEvent" .
+   [1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("QMouseEvent" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("QGraphicsEllipseItem" .
+   [1 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 1])
+  ("released" .
+   [1 0 0 0 0 0 0 0])
+  ("pressed" .
+   [2 0 0 0 0 0 0])
+  ("mouse" .
+   [1 0 0 0 0])
+  ("new_QPointF" .
+   [0 0 0 0 0 0 3 6 1 1 5])
+  ("force" .
+   [3 0 0 0 0])
+  ("scene" .
+   [15 0 0 0 0])
+  ("QPointF" .
+   [17 0 0 1 0 2 1])
+  ("point" .
+   [5 0 0 0 0])
+  ("scenePos" .
+   [9 0 0 0 0 0 0 1])
+  ("applyForce" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("shell" .
+   [3 0 0 0 0])
+  ("launch" .
+   [1 0 0 0 0 0])
+  ("1000" .
+   [4 0 0 0])
+  ("../package/konoha.i/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("YELLOW" .
+   [1 0 0 0 0 0])
+  ("RED" .
+   [1 0 0])
+  ("GREEN" .
+   [1 0 0 0 0])
+  ("key_word_color_list" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("/home/onoda/develop/konoha-utils-read-only/goccy/greadline/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("/home/onoda/develop/konoha-utils-read-only/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("/home/onoda/develop/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("/home/onoda/" .
+   [0 0 0 0 0 0 1 0 0 2 0 0])
+  ("LD_LIBRARY_PATH" .
+   [0 0 0 1 0 1 0 0 0 0 0 0 0 0 0])
+  ("TYPE_SIMPLE" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("WORLD_ELEM" .
+   [1 0 0 0 1 0 0 0 0 0])
+  ("fb_p" .
+   [8 0 0 0])
+  ("block_falling_flag" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("sleep" .
+   [2 0 0 0 0])
+  ("FallBlock" .
+   [0 0 4 2 2 1 1 0 4])
+  ("struct" .
+   [39 0 0 0 0 0])
+  ("typedef" .
+   [8 0 0 0 0 0 0])
+  ("BLOCK_TYPE" .
+   [1 0 0 1 0 2 0 0 0 0])
+  ("enum" .
+   [4 0 0 0])
+  ("ELEM_BLOCK" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("extern" .
+   [11 0 0 0 0 0])
+  ("timerUpdateWorld" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("ELEM_SPACE" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("mouse_release_event_func" .
+   [0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("mouse_move_event_func" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("mouse_press_event_func" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("/usr/local/lib/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("/usr/local/" .
+   [0 0 0 0 0 1 0 7 0 0 0])
+  ("paintWorld" .
+   [1 0 0 0 0 0 1 0 1 0])
+  ("ELEM_WALL" .
+   [1 0 0 0 0 0 0 1 0])
+  ("paintStage" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("mySpiner" .
+   [1 0 0 0 0 0 0 0])
+  ("ready" .
+   [1 0 0 0 0])
+  ("document" .
+   [1 0 0 0 0 0 0 0])
+  ("css" .
+   [2 0 0])
+  ("opacity" .
+   [1 0 0 0 0 0 0])
+  ("80%" .
+   [0 0 1])
+  ("300%" .
+   [1 0 0 0])
+  ("100%" .
+   [2 0 0 0])
+  ("0" .
+   [1])
+  ("auto" .
+   [1 0 0 0])
+  ("0%" .
+   [1 0])
+  ("margin-left" .
+   [3 0 0 0 1 0 0 0 0 0 0])
+  ("1" .
+   [8])
+  ("QGraphcisTextItem" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("m_c_array" .
+   [0 0 0 0 1 0 0 0 0])
+  ("ARRAY_SIZE" .
+   [0 0 4 1 0 1 0 0 0 0])
+  ("timer_event_func" .
+   [0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0])
+  ("QGraphicsTextItem" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("FillRule" .
+   [0 0 0 0 1 0 0 0])
+  ("QPainterPath" .
+   [0 0 0 1 0 1 2 0 0 0 0 1])
+  ("QWebFrame" .
+   [0 0 1 0 1 0 0 0 2])
+  ("QTimeEdit" .
+   [0 0 0 0 0 1 0 0 0])
+  ("ret_v_" .
+   [3 0 0 0 0 0])
+  ("QFlag" .
+   [2 0 0 0 0])
+  ("QLayout" .
+   [1 0 0 0 0 0 0])
+  ("QGraphicsObject" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("QRunnable" .
+   [0 0 0 0 1 0 0 0 0])
+  ("QValidator" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("QIODevice" .
+   [0 0 0 1 0 0 0 0 1])
+  ("QAccessibleObject" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("QGraphicsEffect" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("QGraphicsLayout" .
+   [0 0 0 0 0 0 1 0 0 0 1 1 0 0 0])
+  ("Print" .
+   [2 0 0 0 0])
+  ("setMember" .
+   [0 0 0 1 0 0 0 0 0])
+  ("TurnAround" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("MovePosition" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("QGraphicsView" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("addItem" .
+   [14 0 0 0 1 0 2])
+  ("QGraphicsScene" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("WRITE" .
+   [1 0 0 0 0])
+  ("READ" .
+   [1 0 0 0])
+  ("rotation" .
+   [2 0 0 0 0 0 0 0])
+  ("qreal" .
+   [1 0 0 0 0])
+  ("Q_PROPERTY" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("propertyName" .
+   [0 0 0 0 0 0 0 0 0 0 1 0])
+  ("target" .
+   [2 0 0 0 0 0])
+  ("QObject" .
+   [5 0 0 0 0 0 0])
+  ("500" .
+   [21 0 1])
+  ("set" .
+   [3 0 0])
+  ("turnAround" .
+   [1 0 0 1 0 0 0 0 1 0])
+  ("QPropertyAnimation" .
+   [1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("movePosition" .
+   [2 0 0 0 0 0 1 1 0 0 0 0])
+  ("move" .
+   [1 0 0 0])
+  ("QGraphicsPixmapItem" .
+   [1 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 2])
+  ("QGraphicsItem" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("QPixmap" .
+   [1 0 0 0 0 0 0])
+  ("pos" .
+   [24 0 0])
+  ("o" .
+   [2])
+  ("Q_OBJECT" .
+   [0 0 0 0 0 0 1 0])
+  ("private" .
+   [3 0 0 0 0 1 0])
+  ("Gpi" .
+   [5 0 0])
+  ("Widget" .
+   [1 0 0 0 0 0])
+  ("QWidget" .
+   [3 0 0 0 0 0 0])
+  ("public" .
+   [13 0 0 1 0 0])
+  ("endif" .
+   [5 0 0 0 0])
+  ("SAMPLE_HEAD" .
+   [1 0 0 0 0 0 1 0 0 0 0])
+  ("ifndef" .
+   [2 0 0 0 0 0])
+  ("app" .
+   [19 0 0])
+  ("argv" .
+   [17 0 0 0])
+  ("argc" .
+   [21 0 0 0])
+  ("QApplication" .
+   [1 0 0 0 4 0 3 0 1 0 0 1])
+  ("fmt" .
+   [2 0 0])
+  ("ivalue" .
+   [2 0 0 0 1 0])
+  ("data" .
+   [10 0 0 0])
+  ("QPainter" .
+   [2 0 0 0 0 0 0 0])
+  ("startsWith" .
+   [0 0 0 0 1 0 1 0 0 0])
+  ("sfea" .
+   [1 0 0 0])
+  ("default_getter_name" .
+   [0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0])
+  ("g" .
+   [3])
+  ("gfea" .
+   [4 0 0 1])
+  ("getter_flag" .
+   [0 0 0 0 0 0 3 0 0 0 0])
+  ("System" .
+   [7 0 0 0 0 0])
+  ("chdir" .
+   [2 0 0 0 0])
+  ("work_path" .
+   [0 0 0 2 0 0 0 0 0])
+  ("binded_class" .
+   [0 0 0 0 0 0 2 0 0 0 0 0])
+  ("cmd" .
+   [3 0 0])
+  ("stderr" .
+   [47 0 0 0 0 0])
+  ("fprintf" .
+   [55 0 0 0 1 1 0])
+  ("std" .
+   [12 0 0])
+  ("hogehoge" .
+   [5 0 0 0 0 0 0 0])
+  ("array_flag" .
+   [1 0 0 0 0 0 0 0 0 1])
+  ("fea" .
+   [13 0 0])
+  ("callFuncFormat" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("replace" .
+   [6 0 0 0 0 0 0])
+  ("argument_number" .
+   [0 0 0 0 0 0 0 0 0 0 0 8 1 0 1])
+  ("token_size" .
+   [0 0 0 0 0 1 1 0 1 1])
+  ("func_name" .
+   [3 0 0 1 1 0 0 1 1])
+  ("setElements" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("tokenize" .
+   [1 0 0 0 0 0 0 0])
+  ("Null" .
+   [2 0 0 0])
+  ("virtual_flag" .
+   [0 0 0 0 0 0 0 0 4 0 0 2])
+  ("virtual" .
+   [0 0 0 2 0 0 1])
+  ("EOL" .
+   [7 0 0])
+  ("OUT" .
+   [7 0 0])
+  ("makeC" .
+   [1 0 0 0 0])
+  ("arg_cou" .
+   [0 0 0 0 0 0 1])
+  ("arg_count" .
+   [1 0 0 0 0 0 0 0 1])
+  ("arg_coutn" .
+   [0 0 0 0 1 0 0 0 0])
+  ("argument_" .
+   [0 0 0 0 0 0 0 0 2])
+  ("argument_name" .
+   [11 0 0 0 0 0 0 0 0 0 0 6 9])
+  ("method_name" .
+   [1 0 1 0 1 0 0 0 0 0 0])
+  ("return_value_type" .
+   [1 0 0 0 0 0 4 2 0 1 0 1 2 0 0 0 13])
+  ("getSize" .
+   [3 0 0 12 0 0 0])
+  ("split" .
+   [1 0 0 0 0])
+  ("toKonohaFuncForm" .
+   [0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0])
+  ("class_name" .
+   [2 0 0 3 2 1 0 0 0 2])
+  ("qt_func_form" .
+   [0 0 3 2 0 0 1 0 0 0 0 4])
+  ("bind" .
+   [9 0 0 0])
+  ("close" .
+   [2 0 0 0 0])
+  ("flush" .
+   [3 0 0 0 0])
+  ("input_urn" .
+   [0 0 0 0 0 1 0 0 0])
+  ("interface" .
+   [0 0 0 0 0 0 0 0 1])
+  ("println" .
+   [17 0 0 0 0 0 0])
+  ("reader" .
+   [1 0 0 0 0 0])
+  ("Members" .
+   [1 0 0 0 0 0 0])
+  ("title" .
+   [3 0 0 0 0])
+  ("String" .
+   [32 0 1 0 0 0])
+  ("Reference" .
+   [0 0 0 0 1 0 0 0 0])
+  ("Class" .
+   [4 0 0 0 0])
+  ("definition" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("ous" .
+   [25 0 0])
+  ("output_urn" .
+   [2 0 0 0 0 0 0 0 0 2])
+  ("output" .
+   [2 0 0 0 0 0])
+  ("K_USING_OPENCV" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("K_USING_BOX2D" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("define" .
+   [19 0 0 0 0 0])
+  ("file" .
+   [1 0 0 0])
+  ("setLastText" .
+   [0 0 0 0 0 0 0 1 0 0 1])
+  ("last_text" .
+   [0 0 1 0 0 0 0 0 1])
+  ("newTabSignal" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("emit" .
+   [1 0 0 0])
+  ("SOETextEdit" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("main_text" .
+   [3 0 0 0 0 0 0 0 0])
+  ("f" .
+   [2])
+  ("findFileSlot" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("setText" .
+   [2 0 0 1 0 0 0])
+  ("current_directory" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 2 0 0 0 0])
+  ("FileName" .
+   [2 0 0 0 0 2 0 1])
+  ("SOEFileAreaWidget" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("findFileSignal" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("current_state" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("raw_string_color" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("QTabWidget" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("rawStringFormat" .
+   [0 0 0 0 1 1 0 1 0 0 0 0 0 0 0])
+  ("from" .
+   [4 0 0 0])
+  ("b_DQ_RAW_STRING" .
+   [0 0 0 0 0 0 1 2 0 0 0 0 0 0 0])
+  ("b_SQ_RAW_STRING" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 1])
+  ("switch" .
+   [3 0 0 0 1 0])
+  ("toAscii" .
+   [0 0 0 1 0 0 0])
+  ("end_expression" .
+   [0 0 0 0 0 0 1 0 0 0 1 0 0 0])
+  ("b_ANNOTATION" .
+   [0 0 0 0 1 2 0 1 0 0 0 0])
+  ("b_RAW_STRING" .
+   [0 0 0 1 0 1 0 0 0 0 0 0])
+  ("break" .
+   [32 0 0 0 0])
+  ("QChar" .
+   [1 0 0 0 0])
+  ("else" .
+   [33 0 0 0])
+  ("check" .
+   [4 0 0 0 0])
+  ("case" .
+   [42 0 0 0])
+  ("annotation_Format" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("new" .
+   [46 0 0])
+  ("annotation" .
+   [2 0 0 0 0 0 0 0 0 1])
+  ("darkMagenta" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("Qt" .
+   [2 0])
+  ("annotationFormat" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0])
+  ("cursor" .
+   [4 0 0 0 0 0])
+  ("setPosition" .
+   [1 0 0 0 1 0 0 0 0 0 0])
+  ("insertText" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("position" .
+   [4 0 0 0 1 0 0 0])
+  ("kcursor" .
+   [3 0 0 0 0 0 0])
+  ("start_position" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("border_exp" .
+   [1 0 0 0 0 0 0 0 0 1])
+  ("border_str" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("b" .
+   [1])
+  ("pn_length" .
+   [0 0 0 0 0 0 1 0 0])
+  ("border" .
+   [4 0 0 0 1 1])
+  ("i" .
+   [11])
+  ("length" .
+   [7 0 0 0 0 0])
+  ("class" .
+   [17 0 0 0 1])
+  ("return" .
+   [86 0 0 0 0 3])
+  ("parent" .
+   [8 0 0 0 0 0])
+  ("QPlainTextEdit" .
+   [0 0 0 0 0 1 1 1 0 0 0 0 0 0])
+  ("setParent" .
+   [1 0 0 0 0 0 0 0 1])
+  ("token" .
+   [126 0 0 0 0])
+  ("copy_line" .
+   [2 0 0 3 5 0 0 0 3])
+  ("free" .
+   [12 0 0 0])
+  ("300" .
+   [18 0 0])
+  ("memset" .
+   [4 0 0 0 0 0])
+  ("sizeof" .
+   [22 0 1 0 1 0])
+  ("malloc" .
+   [9 0 0 0 1 0])
+  ("char" .
+   [59 0 0 0])
+  ("line" .
+   [23 0 0 0])
+  ("if" .
+   [70 0])
+  ("NULL" .
+   [27 0 0 0])
+  ("temp_konoha_keyword" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("temp_konoha_type" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("tmp" .
+   [19 0 0])
+  ("s" .
+   [5])
+  ("qPrintable" .
+   [1 0 1 0 0 1 0 0 0 0])
+  ("t" .
+   [7])
+  ("cout" .
+   [28 0 0 0])
+  ("const" .
+   [14 0 0 0 0])
+  ("end_index" .
+   [10 0 0 0 0 0 3 1 0])
+  ("start_index" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("setPattern" .
+   [3 0 0 0 0 0 0 1 0 1])
+  ("typeFormat" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("setPen" .
+   [0 0 0 1 0 0])
+  ("commentFormat" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("triple_quote_color" .
+   [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("annotation_color" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0])
+  ("function_color" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("class_color" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("variable_color" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("string_color" .
+   [1 0 0 0 0 1 0 0 0 0 0 0])
+  ("comment_color" .
+   [1 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("default_color" .
+   [1 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("preprocess_color" .
+   [1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("keyword_color" .
+   [1 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("QColor" .
+   [10 0 0 1 1 0])
+  ("type_color" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("setForeground" .
+   [0 0 0 0 0 0 0 6 1 0 0 1 1])
+  ("string" .
+   [11 0 0 0 0 1])
+  ("comment" .
+   [1 0 0 0 0 0 1])
+  ("default" .
+   [7 0 0 0 3 1 0])
+  ("initializeHighlightColor" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0])
+  ("QTextCharFormat" .
+   [1 0 0 0 0 0 0 1 1 4 0 1 0 0 0])
+  ("index" .
+   [14 0 0 0 0])
+  ("type" .
+   [7 0 0 0])
+  ("append" .
+   [5 0 0 0 0 0])
+  ("clear" .
+   [1 0 0 0 1])
+  ("QRegExp" .
+   [1 0 0 0 0 1 0])
+  ("r" .
+   [2])
+  ("indexOf" .
+   [9 0 0 1 10 6 2])
+  ("endl" .
+   [31 0 0 1])
+  ("text_count" .
+   [5 0 0 0 0 0 0 0 0 0])
+  ("count" .
+   [56 0 0 2 0])
+  ("pattern" .
+   [13 0 0 0 0 0 0])
+  ("c" .
+   [4])
+  ("list" .
+   [14 0 0 0])
+  ("list_count" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("for" .
+   [36 0 0])
+  ("while" .
+   [30 0 0 0 0])
+  ("text" .
+   [28 0 0 1])
+  ("QString" .
+   [5 0 0 0 0 0 5])
+  ("end" .
+   [16 0 0])
+  ("start" .
+   [22 0 0 0 0])
+  ("patternMatchReservedWord" .
+   [0 0 0 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("konoha1" .
+   [0 0 0 0 0 0 1])
+  ("delete" .
+   [4 0 0 0 0 0])
+  ("konoha_reserved_keyword" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("konoha_reserved_type" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4])
+  ("QStringList" .
+   [0 0 0 0 0 0 0 0 0 1 1])
+  ("SOHighlighter" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("initializeReservedWord" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1])
+  ("void" .
+   [70 0 0 0])
+  ("SOEHighlighter" .
+   [0 0 0 0 4 0 0 0 0 0 0 0 0 0])
+  ("L_VAL_INC" .
+   [0 0 0 0 0 1 0 0 0])
+  ("exec_code" .
+   [2 0 0 1 2 0 0 0 0])
+  ("printf" .
+   [43 0 0 0 0 0])
+  ("inter" .
+   [0 0 0 0 1])
+  ("internal-get-face" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("intern" .
+   [0 0 0 0 0 1])
+  ("void-text-area-pointer" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("interprogram-cut-function" .
+   [0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("intervals-consed" .
+   [0 0 1 6 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("jijiji" .
+   [0 0 0 0 1 0])
+  ("aaa" .
+   [0 0 1])
+  ("main" .
+   [8 0 1 0])
+  ("int" .
+   [183 0 1])
+  ("in" .
+   [6 0])
+  ("internal-make-lisp-face" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("include" .
+   [49 0 0 0 1 0 0])
+  ("dumpToken" .
+   [0 0 0 1 0 0 0 0 1])
+  ("dump_exec_code" .
+   [0 0 0 2 0 0 0 0 0 0 0 0 0 1])
+  ("line_size" .
+   [1 0 0 0 0 0 0 0 0])
+  ("token_count" .
+   [1 0 0 0 0 0 0 0 0 4 0])
+  ("byte" .
+   [1 0 0 0])
+  ("array" .
+   [2 0 0 0 0])
+  ("a" .
+   [14])
+  ("allocateData" .
+   [1 0 0 0 0 0 0 0 1 0 0 0])
+  ("mp" .
+   [3 0])
+  ("MemoryPool" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("str" .
+   [38 0 0])
+  ("setFocus" .
+   [2 0 0 0 0 0 0 0])
+  ("SOELineEdit" .
+   [0 0 0 0 0 2 0 0 0 0 0])
+  ("m_WholeLayout" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("QFormLayout" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("50" .
+   [1 0])
+  ("30" .
+   [1 0])
+  ("Fixed" .
+   [1 0 0 0 0])
+  ("alias" .
+   [5 0 0 0 0])
+  ("export" .
+   [14 0 0 0 0 0])
+  ("/usr/" .
+   [0 2 1 7 1])
+  ("/usr/bin/" .
+   [0 0 0 0 0 0 0 1 0])
+  ("fp" .
+   [10 0])
+  ("pn_c" .
+   [3 0 0 0])
+  ("pn" .
+   [1 0])
+  ("pn_i" .
+   [2 0 0 0])
+  ("fgets" .
+   [2 0 0 0 0])
+  ("n_c" .
+   [2 0 0])
+  ("MAX_PLOBLEM_DIGIT" .
+   [0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("MAX_INTEGER_NUMBER" .
+   [2 0 0 0 0 1 4 0 1 0 0 0 0 0 0 0 0 0])
+  ("MAX_DIGIT" .
+   [0 0 0 0 0 1 3 0 0])
+  ("MAX_LINE_LENGTH" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 1 0 0])
+  ("n_i" .
+   [4 0 0])
+  ("atoi" .
+   [2 0 0 0])
+  ("tokenizer" .
+   [0 0 0 0 0 1 1 0 0])
+  ("strlen" .
+   [4 0 0 0 0 0])
+  ("line_length" .
+   [1 0 0 0 0 1 0 0 0 0 0])
+  ("end_flag" .
+   [0 0 0 0 0 1 0 1])
+  ("solve" .
+   [2 0 0 0 0])
+  ("FILE" .
+   [1 0 0 0])
+  ("fopen" .
+   [1 0 0 0 0])
+  ("token_number" .
+   [0 0 0 0 0 0 0 0 19 3 0 1])
+  ("max" .
+   [11 0 0])
+  ("binary_digit" .
+   [0 0 1 1 4 0 0 0 0 0 0 0])
+  ("answer" .
+   [2 0 2 3 0 10])
+  ("answer_c" .
+   [3 0 0 0 0 0 0 0])
+  ("fclose" .
+   [0 0 0 0 1 0])
+  ("answer_i" .
+   [4 0 0 0 0 0 0 0])
+  ("flag" .
+   [8 0 1 1])
+  ("eval" .
+   [4 0 0 0])
+  ("candidate2" .
+   [1 0 0 0 0 2 0 0 0 3])
+  ("size" .
+   [9 0 0 1])
+  ("int_array_copy" .
+   [0 0 0 0 0 3 0 0 0 0 0 0 0 0])
+  ("copy_flag2" .
+   [1 0 0 0 0 0 0 0 0 2])
+  ("copy_flag1" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("copy_token" .
+   [1 0 0 0 0 0 0 0 0 1])
+  ("candidate" .
+   [0 0 0 0 0 0 0 0 1])
+  ("candidate1" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("copy_token1" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("returnFormat" .
+   [2 0 0 0 0 0 0 0 0 1 0 0])
+  ("Q" .
+   [2])
+  ("print" .
+   [94 0 0 0 1])
+  ("argument_type" .
+   [11 0 1 0 1 0 0 0 1 0 2 4 43])
+  ("do" .
+   [3 0])
+  ("ac" .
+   [6 0])
+  ("n" .
+   [4])
+  ("name" .
+   [5 0 0 0])
+  ("Array" .
+   [4 1 0 0 0])
+  ("parse" .
+   [4 0 0 0 0])
+  ("declation" .
+   [3 0 2 3 0 1 0 0 0])
+  ("FunctionElement" .
+   [0 0 0 0 0 0 0 0 0 4 4 1 0 0 2])
+  ("remove" .
+   [9 0 0 0 0 0])
+  ("continue" .
+   [3 0 0 0 0 0 0 0])
+  ("tc" .
+   [33 0])
+  ("true" .
+   [17 0 0 0])
+  ("pop" .
+   [10 0 0])
+  ("p" .
+   [5])
+  ("fe" .
+   [6 0])
+  ("argumentFormat" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("createBind" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("K_INTERNAL" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("errno" .
+   [1 0 0 0 0])
+  ("foreach" .
+   [5 0 0 0 0 0 0])
+  ("before" .
+   [2 0 1 0 0 1])
+  ("ins" .
+   [2 0 0])
+  ("InputStream" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("OutputStream" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("func" .
+   [21 0 0 0])
+  ("makeK" .
+   [3 0 0 0 0])
+  ("inherits" .
+   [0 0 0 0 1 0 0 0])
+  ("declations" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("clist" .
+   [1 0 0 0 0])
+  ("ret" .
+   [26 0 0])
+  ("resize" .
+   [1 0 0 0 0 0])
+  ("1200" .
+   [1 0 0 0])
+  ("800" .
+   [1 0 0])
+  ("100" .
+   [29 0 0])
+  ("gpi" .
+   [1 0 0])
+  ("height" .
+   [0 0 0 0 1 0])
+  ("width" .
+   [2 0 0 1 0])
+  ("item_width" .
+   [0 0 0 0 0 0 1 1 0 0])
+  ("item_height" .
+   [0 0 0 0 0 0 2 0 0 0 0])
+  ("120" .
+   [1 0 0])
+  ("dlerror" .
+   [3 0 0 2 2 0 1])
+  ("qp" .
+   [3 0])
+  ("out" .
+   [5 0 0])
+  ("font" .
+   [2 0 0 0])
+  ("QFont" .
+   [1 0 0 0 0])
+  ("cdef" .
+   [1 0 0 0])
+  ("KMETHOD" .
+   [2 0 0 0 0 0 0])
+  ("RETURNi_" .
+   [1 0 0 0 0 0 0 0])
+  ("static" .
+   [18 0 0 0 0 0])
+  ("knh_RawPtr_t" .
+   [0 0 0 0 0 0 1 0 0 0 1 0])
+  ("handler" .
+   [1 0 1 0 1 0 0])
+  ("ret_v" .
+   [8 0 0 0 0])
+  ("add" .
+   [10 0 0])
+  ("ACDIR" .
+   [1 0 0 0 0])
+  ("QGLWidget" .
+   [0 0 0 1 0 0 0 0 0])
+  ("gsl_combination" .
+   [0 0 0 0 0 0 1 1 2 0 0 0 0 0 33])
+  ("gsl_combination_alloc" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("size_t" .
+   [3 0 0 0 0 0])
+  ("GSL_FAILURE" .
+   [1 0 0 2 0 0 1 0 0 0 0])
+  ("gsl_combination_calloc" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 2 0 0])
+  ("gsl_combination_initFirst" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1])
+  ("gsl_combination_data" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("gsl_combination_k" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("dumpData" .
+   [0 0 0 2 2 0 0 1])
+  ("gsl_combination_initLast" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0])
+  ("copy" .
+   [5 0 0 0])
+  ("get" .
+   [2 0 0])
+  ("gsl_combination_free" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("gsl_combination_prev" .
+   [4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("getData" .
+   [1 0 0 0 0 0 0])
+  ("dumpComb" .
+   [0 0 0 0 0 0 1 0])
+  ("res" .
+   [2 0 0])
+  ("api" .
+   [1 0 0])
+  ("multiadd" .
+   [1 0 0 0 0 0 1 0])
+  ("lsfp" .
+   [6 0 0 0])
+  ("BEGIN_LOCAL" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("ctx" .
+   [6 0 0])
+  ("END_LOCAL" .
+   [0 0 0 1 0 0 0 0 0])
+  ("src" .
+   [6 0 0])
+  ("dist" .
+   [9 0 0 0])
+  ("QApplication_" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("arg" .
+   [4 0 1])
+  ("KQPoint" .
+   [1 0 0 0 0 0 0])
+  ("ret_c" .
+   [1 0 0 0 0])
+  ("addText" .
+   [1 0 0 0 0 0 0])
+  ("cTBL" .
+   [2 0 0 0])
+  ("QGraphicsBlurEffect" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("BlurHint" .
+   [0 0 0 0 0 0 0 2])
+  ("sample" .
+   [2 0 0 0 0 0])
+  ("server_blink" .
+   [0 0 0 0 0 0 0 0 0 0 1 0])
+  ("QGraphicsRectItem" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1])
+  ("paint" .
+   [1 0 0 0 0])
+  ("painter" .
+   [1 0 0 0 0 0 0])
+  ("For" .
+   [5 0 0])
+  ("PATH" .
+   [3 0 0 0])
+  ("STAGE_WIDTH" .
+   [0 0 2 0 0 0 0 0 2 0 0])
+  ("STAGE_HEIGHT" .
+   [0 0 0 0 0 0 0 2 0 0 0 1])
+  ("FRAME_WIDTH" .
+   [0 0 0 6 0 2 0 2 0 2 1])
+  ("FRAME_HEIGHT" .
+   [0 0 2 4 1 2 0 5 1 0 0 0])
+  ("world" .
+   [27 0 0 0 0])
+  ("initWorld" .
+   [0 0 0 0 2 0 0 0 0])
+  ("siro_sikaku" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("event" .
+   [22 0 0 0 0])
+  ("false" .
+   [5 0 0 0 0])
+  ("QEvent" .
+   [2 0 0 0 0 0])
+  ("GraphicsSceneMousePress" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("updateWorld" .
+   [0 0 0 0 0 0 2 1 0 0 1])
+  ("INTERVAL" .
+   [1 0 0 0 0 1 0 0])
+  ("bool" .
+   [10 0 0 0])
+  ("checkGameOver" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("greadline" .
+   [1 0 0 0 0 0 0 0 0])
+  ("/home/" .
+   [0 0 0 0 0 1])
+  ("QPushButton" .
+   [0 0 0 0 1 5 0 0 0 0 0])
+  ("make" .
+   [9 0 0 0])
+  ("../package/" .
+   [0 0 0 0 0 4 0 0 0 0 0])
+  ("../package/konoha.qt4/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 3 1])
+  ("../package/konoha.qt4/build/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0])
+  ("../package/konoha.qt4/build/qt4.so" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 3 0 0 0])
+  ("/usr/local/konoha/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 1])
+  ("/usr/local/konoha/script/1.0/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("/usr/local/konoha/script/1.0/man" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("/usr/local/konoha/package/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 1 0 0 1])
+  ("/usr/local/konoha/package/1.0/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 2 0 0])
+  ("/usr/local/konoha/package/1.0/konoha.qt4/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 2 0 0])
+  ("sudo" .
+   [4 0 0 0])
+  ("QImage" .
+   [2 0 0 0 0 0])
+  ("image" .
+   [3 0 0 0 0])
+  ("body" .
+   [9 0 0 0])
+  ("QGraphicsComplexItem" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0])
+  ("ppf" .
+   [2 0 0])
+  ("item_pos" .
+   [0 0 0 0 2 0 0 0])
+  ("current_y" .
+   [0 0 2 0 0 0 0 0 1])
+  ("current_x" .
+   [3 0 0 0 0 0 0 0 1])
+  ("event_x" .
+   [1 0 0 0 0 0 0])
+  ("event_y" .
+   [1 0 0 0 0 0 0])
+  ("ground" .
+   [2 0 0 0 0 0])
+  ("scheduled_scaling" .
+   [0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("num_steps" .
+   [2 0 0 1 0 0 0 1 1])
+  ("QTimeLine" .
+   [0 0 0 0 0 2 0 1 1])
+  ("_anim" .
+   [5 0 0 0 0])
+  ("3000" .
+   [1 0 0 0])
+  ("signalConnect" .
+   [0 0 0 1 0 1 3 0 0 0 0 0 0])
+  ("scalingTime" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("animFinished" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("_scheduled_scaling" .
+   [0 0 0 0 1 4 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("_view" .
+   [8 0 0 0 0])
+  ("factor" .
+   [3 0 0 0 0 0])
+  ("delta" .
+   [1 0 0 0 0])
+  ("num_degrees" .
+   [0 0 0 0 0 0 0 0 0 1 0])
+  ("centerOn" .
+   [4 0 0 0 0 0 0 0])
+  ("wheel" .
+   [1 0 0 0 0])
+  ("timer" .
+   [8 0 0 0 0])
+  ("QTimer" .
+   [4 0 0 0 0 0])
+  ("traceBird" .
+   [0 0 0 0 0 1 0 0 0])
+  ("new_Static" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("QRectF" .
+   [3 0 0 1 2 1])
+  ("setRect" .
+   [3 0 0 0 0 0 1])
+  ("rfa" .
+   [5 0 0])
+  ("viewZoom" .
+   [1 0 0 0 0 0 1 0])
+  ("moveTo" .
+   [2 0 0 0 0 0])
+  ("setInterval" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("setUpdateInterval" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("scrollRight" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("r_count" .
+   [3 0 0 0 0 0 0])
+  ("_r_count" .
+   [4 0 0 0 0 0 0 0])
+  ("update" .
+   [1 0 0 0 0 0])
+  ("_const_force" .
+   [0 0 0 0 0 1 1 0 0 0 0 0])
+  ("updateScene" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("CTX" .
+   [2 0 0])
+  ("ksfp_t" .
+   [0 0 0 0 0 1])
+  ("sfp" .
+   [5 0 1])
+  ("_RIX" .
+   [0 0 1 0])
+  ("kRawPtr" .
+   [0 0 1 0 0 0 0])
+  ("rawptr" .
+   [2 0 0 0 0 0])
+  ("RETURNvoid_" .
+   [2 0 0 0 0 0 0 0 0 0 2])
+  ("pkgconnector" .
+   [0 0 0 1 0 0 1 0 0 0 0 0])
+  ("parentCall" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("RETURN" .
+   [0 0 0 0 0 1])
+  ("RETURNb_" .
+   [1 0 0 0 0 0 0 0])
+  ("develop/Qtgen/konoha.qt4" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("QBrush" .
+   [2 0 0 0 0 0])
+  ("radialGrad" .
+   [1 0 0 0 0 0 0 0 0 4])
+  ("center" .
+   [2 0 0 0 0 0])
+  ("focalPoint" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("tcp_socket" .
+   [0 0 0 1 1 0 2 0 0 0])
+  ("readData" .
+   [1 0 0 0 0 0 0 0])
+  ("QTcpSocke" .
+   [0 0 0 0 0 0 0 0 1])
+  ("QTcpSocket" .
+   [1 0 0 0 1 0 1 0 0 3])
+  ("QDataStream" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("readBytes" .
+   [2 0 0 0 0 0 0 0 0])
+  ("read_data" .
+   [2 0 0 0 0 0 0 1 0])
+  ("displayError" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("sct" .
+   [1 0 0])
+  ("Client" .
+   [2 0 0 0 0 0])
+  ("connect" .
+   [1 0 0 0 0 0 0])
+  ("QIODeviceOpenMode" .
+   [0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ReadOnly" .
+   [1 0 0 0 0 0 0 1])
+  ("mode" .
+   [1 0 0 0])
+  ("_pig1_default_x" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("_pig1_default_y" .
+   [0 0 0 1 0 0 0 1 0 0 0 0 0 0 0])
+  ("_pig2_default_x" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("_pig2_default_y" .
+   [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0])
+  ("600" .
+   [4 0 0])
+  ("_pig_height" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("_pig_width" .
+   [0 0 0 0 0 0 0 0 1 0])
+  ("_big_block_width" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("200" .
+   [3 0 0])
+  ("400" .
+   [1 0 0])
+  ("new_BigBlock" .
+   [0 0 0 0 0 0 0 2 0 0 0 1])
+  ("new_Bird" .
+   [0 0 0 0 0 0 1 0])
+  ("ls_block" .
+   [0 0 0 1 0 0 0 0])
+  ("_game_scene" .
+   [0 0 0 0 0 1 1 0 0 0 0])
+  ("_ls_block" .
+   [0 0 0 3 1 0 0 0 0])
+  ("setXForm" .
+   [0 0 0 0 2 0 0 0])
+  ("_ls_block_default_x" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("_ls_block_default_y" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("_rs_block_default_x" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("_rs_block_default_y" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("setFriction" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("w_block" .
+   [0 0 1 0 0 0 2])
+  ("_w_block_" .
+   [0 0 0 0 0 0 0 0 1])
+  ("new_WoodBlock" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("_w_block_default_x" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1])
+  ("_w_block_default_y" .
+   [0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0])
+  ("_w_block" .
+   [0 0 0 2 1 0 0 1])
+  ("_w_block_width" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("_w_block_height" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("720" .
+   [1 0 0])
+  ("_focus_default_x" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1])
+  ("_focus_default_y" .
+   [0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("d" .
+   [3])
+  ("argc_p" .
+   [2 0 0 0 0 0])
+  ("genClassInit" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("ClassName" .
+   [2 0 0 0 0 0 0 0 0])
+  ("j_class" .
+   [4 0 0 0 0 0 0])
+  ("j_ctx" .
+   [1 0 0 0 0])
+  ("Json" .
+   [3 0 0 0])
+  ("j_enums" .
+   [3 0 0 0 0 0 0])
+  ("enums" .
+   [2 0 0 0 0])
+  ("getKeys" .
+   [0 0 0 0 1 0 1])
+  ("k" .
+   [3])
+  ("keys" .
+   [2 0 0 0])
+  ("j_enum" .
+   [1 0 0 0 0 0])
+  ("clang" .
+   [1 0 0 0 0])
+  ("CompilerInstance" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("compiler" .
+   [0 0 0 0 0 0 0 2])
+  ("compiler_arguments" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("extractor" .
+   [0 0 0 0 0 0 0 0 1])
+  ("script" .
+   [1 0 0 0 0 0])
+  ("asm" .
+   [4 0 0])
+  ("../genir/" .
+   [0 0 0 0 0 1 0 1 0])
+  ("../genir/QTextEdit.genir" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("!/bin/sh" .
+   [1 0 0 0 0 0 0 0])
+  ("konoha" .
+   [2 0 0 0 0 0])
+  ("gen-ir2k-cpp.k" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("-c" .
+   [1 0])
+  ("mv" .
+   [1 0])
+  ("konoha.java" .
+   [1 0 0 0 0 0 0 0 0 1 0])
+  ("error_log" .
+   [0 0 0 0 1 0 0 0 0])
+  ("../qt-ir" .
+   [0 0 1 0 0 0 0 0])
+  ("less" .
+   [1 0 0 0])
+  (".bashrc" .
+   [1 0 0 0 0 0 0])
+  ("bashrc" .
+   [0 0 0 0 1 0])
+  ("Generator.java" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("knh_ClassTBL_t" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ct" .
+   [1 0])
+  ("ClassTBL" .
+   [1 0 0 0 0 0 0 0])
+  ("kunbox_t" .
+   [0 0 0 0 0 1 0 0])
+  ("KNH_NULL" .
+   [1 0 0 0 0 0 0 0])
+  ("vsfp" .
+   [5 0 0 0])
+  ("ndata" .
+   [3 0 0 0 0])
+  ("_rix" .
+   [1 0 0 0])
+  ("test" .
+   [1 0 0 0])
+  ("WindowEvent" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("genParentsIR" .
+   [0 0 0 0 0 2 0 0 0 1 0 0])
+  ("klass" .
+   [3 0 0 0 1])
+  ("PrintWriter" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("getSuperClass" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("parent_class" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("getName" .
+   [1 0 0 0 0 0 0])
+  ("parent_class_name" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ClassEnum" .
+   [1 0 0 0 0 0 0 0 0])
+  ("null" .
+   [1 0 0 0])
+  ("konoha.java/java." .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("mouseReleaseEvent" .
+   [1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("cid" .
+   [4 0 0])
+  ("load" .
+   [1 0 0 0])
+  ("fuga" .
+   [2 0 0 0])
+  ("S_text" .
+   [2 0 0 0 0 0])
+  ("input" .
+   [6 0 0 0 0])
+  ("readline" .
+   [1 0 0 0 0 0 0 0])
+  ("add_history" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("treePointer" .
+   [0 0 0 0 0 1 0 1 0 0 0])
+  ("field" .
+   [1 0 0 0 0])
+  ("user" .
+   [3 0 0 0])
+  ("pass" .
+   [3 0 0 0])
+  ("host" .
+   [3 0 0 0])
+  ("dbnm" .
+   [3 0 0 0])
+  ("use" .
+   [1 0 0])
+  ("query" .
+   [3 0 0 0 0])
+  ("kint_t" .
+   [2 0 0 0 1 0])
+  ("256" .
+   [2 0 0])
+  ("databuf" .
+   [1 0 0 0 0 0 0])
+  ("p_int" .
+   [1 0 0 0 0])
+  ("opcode" .
+   [15 0 0 0 0 0])
+  ("DEFUN" .
+   [2 0 0 0 0])
+  ("btstr" .
+   [1 0 0 0 0])
+  ("url" .
+   [2 0 0])
+  ("db" .
+   [1 0])
+  ("dbname" .
+   [1 0 0 0 0 0])
+  ("double" .
+   [8 0 0 0 0 0])
+  ("short" .
+   [1 0 0 0 0])
+  ("tmp_" .
+   [4 0 0 0])
+  ("reg_name" .
+   [2 0 0 0 1 0 0 0])
+  ("Tree_Dump" .
+   [0 0 0 0 1 0 0 0 0])
+  ("Conscell" .
+   [0 0 0 0 0 0 0 1])
+  ("Conscell_t" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("head" .
+   [18 0 0 0])
+  ("DBG_P" .
+   [0 0 0 0 1])
+  ("level" .
+   [15 0 0 0 0])
+  ("celltype" .
+   [1 0 0 2 0 3 0 2])
+  ("h" .
+   [1])
+  ("T_OPERATOR" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("svalue" .
+   [1 0 1 0 0 0])
+  ("T_END" .
+   [4 0 3 4 2])
+  ("tree_head" .
+   [1 0 0 0 0 0 0 0 0])
+  ("ByteCode_t" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("pc" .
+   [7 0])
+  ("vmcode" .
+   [0 0 0 0 0 1])
+  ("C" .
+   [1])
+  ("eval_pointer" .
+   [0 0 0 0 1 1 0 0 1 0 0 0])
+  ("cdr" .
+   [10 0 0])
+  ("VM_ByteCode_Set" .
+   [0 0 0 0 16 1 0 1 1 0 0 0 0 0 0])
+  ("Cell" .
+   [1 0 0 0])
+  ("defun_flag" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("ON" .
+   [3 0])
+  ("defun_call" .
+   [2 0 0 0 0 0 0 0 0 1])
+  ("OFF" .
+   [2 0 0])
+  ("Parser" .
+   [1 0 0 0 0 1])
+  ("_Parser" .
+   [0 0 0 1 0 0 0])
+  ("FREELIST" .
+   [0 0 0 0 1 0 0 0])
+  ("freelist" .
+   [1 0 0 0 0 0 0 0])
+  ("tmp_token" .
+   [2 0 0 0 0 0 0 0 0])
+  ("tmp_cell" .
+   [2 0 0 0 0 0 0 0])
+  ("Tokenizer" .
+   [0 0 0 0 0 0 0 0 1])
+  ("_Tokenizer" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("VirtualMachineByteCodeLine" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0])
+  ("newfunc" .
+   [4 0 0 0 0 0 0])
+  ("32" .
+   [1 0])
+  ("BRANCHSIZE" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("branch" .
+   [2 0 0 0 0 0])
+  ("branch_count" .
+   [1 0 0 0 0 0 0 0 0 0 1 0])
+  ("path" .
+   [2 0 0 0])
+  ("eax" .
+   [1 0 0])
+  ("typeId" .
+   [1 0 0 0 0 0])
+  ("find" .
+   [4 0 0 0])
+  ("Mpz" .
+   [2 0 0])
+  ("ia" .
+   [2 0])
+  ("Method_returnType" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("mtd" .
+   [1 0 0])
+  ("TY_boolean" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("mtd_cid" .
+   [1 0 0 0 0 0 0])
+  ("init" .
+   [1 0 0 0])
+  ("_Complex" .
+   [2 0 0 0 0 0 0 0])
+  ("conf" .
+   [2 0 0 0])
+  ("classid" .
+   [1 0 0 0 0 0 0])
+  ("classTable" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("classItems" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("Name" .
+   [1 0 0 0])
+  ("NameSpace" .
+   [1 0 0 0 0 0 0 0 0])
+  ("filelog_memory" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("filelog_memory_index" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("id_tmp" .
+   [1 0 0 0 0 0])
+  ("value" .
+   [5 0 0 0 0])
+  ("kfileline_t" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("syslog" .
+   [1 0 0 0 0 0])
+  ("DB" .
+   [1 0])))

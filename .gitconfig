@@ -7,7 +7,7 @@
   co = checkout
   ci = commit
   st = status
-  br = branch
+  b = branch
   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 [core]
   excludesfile = ~/.gitignore
