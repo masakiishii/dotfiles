@@ -280,8 +280,17 @@
 ;; (add-hook 'haskell-mode-hook 'turn-on-haskell-ghci)
 
 ;;==========coq mode==============================
-(load-file "~/Downloads/ProofGeneral/generic/proof-site.el")
+(load-file "/usr/local/ProofGeneral/generic/proof-site.el")
 
 ;;==========<<<yasnippet.el>>>====================
-(require 'yasnippet-config)
-(yas/setup "~/.emacs.d/yasnippet-0.6.1c")
+;;(require 'yasnippet-config)
+;;(yas/setup "~/.emacs.d/yasnippet-0.6.1c")
+
+;;==========<<<Tuareg-mode(Ocaml)>>>===============
+(autoload 'tuareg-mode "tuareg" "Major mode for editing Caml code" t)
+(autoload 'camldebug "camldebug" "Run the Caml debugger" t)
+;; (add-hook 'tuareg-mode-hook 'tuareg-imenu-set-imenu)
+(setq auto-mode-alist 
+      (append '(("\\.ml[ily]?$" . tuareg-mode)
+		("\\.topml$" . tuareg-mode))
+	      auto-mode-alist))

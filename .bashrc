@@ -118,10 +118,13 @@ function proml {
 proml
 
 eval "$(rbenv init -)"
+export EC2_HOME=/usr/local/ec2-api-tools
+export PATH=$PATH:$EC2_HOME/bin
 export EC2_PRIVATE_KEY=~/.ec2/pk-IJWCLWYU5VBP5E2TV4IO6B2FB2RIPSKA.pem
 export EC2_CERT=~/.ec2/cert-IJWCLWYU5VBP5E2TV4IO6B2FB2RIPSKA.pem
-#export EC2_URL=https://ec2.ap-northeast-1.amazonaws.com
-export EC2_URL=https://ec2.us-west-2.amazonaws.com
+export EC2_URL=https://ec2.ap-northeast-1.amazonaws.com
+#export EC2_URL=https://ec2.us-west-2.amazonaws.com
+
 
 export JAVA_HOME=/usr/lib/jvm/java-7-oracle
 export AWS_CLOUDWATCH_HOME=/usr/local/CloudWatch
@@ -131,6 +134,11 @@ export PATH=$PATH:$AWS_CLOUDWATCH_HOME/bin
 export PATH=$PATH:$AWS_AUTO_SCALING_HOME/bin
 export PATH=$PATH:$AWS_ELB_HOME/bin
 export AWS_CREDENTIAL_FILE=~/credential.txt
-export AWS_CLOUDWATCH_URL=https://monitoring.us-west-2.amazonaws.com
-export AWS_AUTO_SCALING_URL=https://autoscaling.us-west-2.amazonaws.com
-export AWS_ELB_URL=https://elasticloadbalancing.us-west-2.amazonaws.com
+#export AWS_CLOUDWATCH_URL=https://monitoring.us-west-2.amazonaws.com
+export EC2_URL=https://ec2.ap-northeast-1.amazonaws.com
+export AWS_CLOUDWATCH_URL=https://monitoring.ap-northeast-1.amazonaws.com
+#export AWS_AUTO_SCALING_URL=https://autoscaling.us-west-2.amazonaws.com
+export AWS_AUTO_SCALING_URL=https://autoscaling.ap-northeast-1.amazonaws.com
+#export AWS_ELB_URL=https://elasticloadbalancing.us-west-2.amazonaws.com
+export AWS_ELB_URL=https://elasticloadbalancing.ap-northeast-1.amazonaws.com
+
