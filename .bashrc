@@ -113,11 +113,11 @@ function precmd() {
     PROMPT="\h@\u:\W\$(parse_git_branch) \$ "
 }
 function proml {
-    PS1="\[\033[0;37m\]\u\[\033[0m\]@\[\033[1;32m\]\W\[\033[1;31m\]\$(parse_git_branch)\[\033[1;34m\]$\[\033[0m\]"
+    PS1="\[\033[2;36m\]\u\[\033[0m\]@\[\033[0;32m\]\W\[\033[0;31m\]\$(parse_git_branch)\[\033[2;36m\]$\[\033[0m\]"
 }
 proml
 
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 export EC2_HOME=/usr/local/ec2-api-tools
 export PATH=$PATH:$EC2_HOME/bin
 export EC2_PRIVATE_KEY=~/.ec2/pk-IJWCLWYU5VBP5E2TV4IO6B2FB2RIPSKA.pem
@@ -141,4 +141,13 @@ export AWS_CLOUDWATCH_URL=https://monitoring.ap-northeast-1.amazonaws.com
 export AWS_AUTO_SCALING_URL=https://autoscaling.ap-northeast-1.amazonaws.com
 #export AWS_ELB_URL=https://elasticloadbalancing.us-west-2.amazonaws.com
 export AWS_ELB_URL=https://elasticloadbalancing.ap-northeast-1.amazonaws.com
+
+alias tmux='~/Documents/tmux.sh'
+
+export PATH=$PATH:/sbin
+
+#llvm
+export PATH=$PATH:/usr/local/llvm-3.3/bin
+export PATH=$PATH:/usr/local/llvm-3.3/include
+
 

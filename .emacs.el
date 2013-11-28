@@ -260,27 +260,27 @@
 (add-hook 'emacs-lisp-mode-hook 'enable-auto-async-byte-compile-mode)
 
 ;; ;=======haskel-mode==================                                                                                 
-;; (autoload 'ghc-init "ghc" nil t)
+(autoload 'ghc-init "ghc" nil t)
 
-;; (defun haskell-individual-setup ()
-;;   (let ((mapping '(([f5] . "\C-c\C-l\C-x\omain\C-m\C-xo")
-;;                    ("\C-c\C-i" . ghc-complete)
-;;                    ([backtab] . haskell-indent-cycle))))    
-;;     (loop for (key . f) in mapping
-;;           do (define-key haskell-mode-map key f))
+(defun haskell-individual-setup ()
+  (let ((mapping '(([f5] . "\C-c\C-l\C-x\omain\C-m\C-xo")
+                   ("\C-c\C-i" . ghc-complete)
+                   ([backtab] . haskell-indent-cycle))))    
+    (loop for (key . f) in mapping
+          do (define-key haskell-mode-map key f))
 
-;;     (turn-on-haskell-doc-mode)
-;;     (turn-on-haskell-indent)
-;;     (imenu-add-menubar-index)
-;;     (ghc-init)
-;;     (flymake-mode)))
+    (turn-on-haskell-doc-mode)
+    (turn-on-haskell-indent)
+    (imenu-add-menubar-index)
+    (ghc-init)
+    (flymake-mode)))
 
-;; (add-hook 'haskell-mode-hook 'haskell-individual-setup)
-;; (put 'downcase-region 'disabled nil)
-;; (add-hook 'haskell-mode-hook 'turn-on-haskell-ghci)
+(add-hook 'haskell-mode-hook 'haskell-individual-setup)
+(put 'downcase-region 'disabled nil)
+(add-hook 'haskell-mode-hook 'turn-on-haskell-ghci)
 
 ;;==========coq mode==============================
-(load-file "/usr/local/ProofGeneral/generic/proof-site.el")
+;;(load-file "/usr/local/ProofGeneral/generic/proof-site.el")
 
 ;;==========<<<yasnippet.el>>>====================
 ;;(require 'yasnippet-config)
