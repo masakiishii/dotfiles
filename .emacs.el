@@ -1,11 +1,11 @@
 ;============== INIT ==============
-;(set-language-environment 'Japanese)
-;(set-default-coding-systems 'utf-8-mac)
-;(set-terminal-coding-system 'utf-8-mac)
-;(set-keyboard-coding-system 'utf-8-mac)
-;(set-clipboard-coding-system 'utf-8-mac)
-;(setq-default buffer-file-coding-system 'utf-8-mac)
-;(prefer-coding-system 'utf-8-mac)
+;; (set-language-environment 'Japanese)
+;; (set-default-coding-systems 'utf-8-mac)
+;; (set-terminal-coding-system 'utf-8-mac)
+;; (set-keyboard-coding-system 'utf-8-mac)
+;; (set-clipboard-coding-system 'utf-8-mac)
+;; (setq-default buffer-file-coding-system 'utf-8-mac)
+;; (prefer-coding-system 'utf-8-mac)
 
 (if (boundp 'window-system)
     (setq initial-frame-alist
@@ -276,7 +276,6 @@
 ;;     (flymake-mode)))
 
 ;; (add-hook 'haskell-mode-hook 'haskell-individual-setup)
-;; (put 'downcase-region 'disabled nil)
 ;; (add-hook 'haskell-mode-hook 'turn-on-haskell-ghci)
 
 ;;==========coq mode==============================
@@ -294,3 +293,32 @@
       (append '(("\\.ml[ily]?$" . tuareg-mode)
 		("\\.topml$" . tuareg-mode))
 	      auto-mode-alist))
+(custom-set-variables
+  ;; custom-set-variables was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+ '(agda2-include-dirs (quote ("." "/home/masakiishii/Downloads/lib-agda/src"))))
+(custom-set-faces
+  ;; custom-set-faces was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+ )
+
+;;==========<<<agda-mode>>>===============================
+(load-file "/home/masakiishii/.cabal/share/Agda-2.3.0.1/emacs-mode/agda2.el")
+;; (load-library "agda2")
+;; (add-hook 'agda2-mode-hook
+;; 	  (lambda ()
+;; 	    (add-to-list 'agda2-include-dirs
+;; 			 (expand-file-name ("/home/masakiishii/Downloads/lib-agda/src"))) ; Agda 標準ライブラリ
+;; 	    ))
+;; (put 'downcase-region 'disabled nil)
+
+(load-file (let ((coding-system-for-read 'utf-8))
+                (shell-command-to-string "agda-mode locate")))
+
+;;==========<<<Typescript-mode>>>===============================
+(add-to-list 'auto-mode-alist '("\\.ts\\'" . typescript-mode))
+(autoload 'typescript-mode "TypeScript" "Major mode for editing typescript." t)
