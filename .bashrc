@@ -151,3 +151,6 @@ export PATH=$PATH:/usr/local/llvm-3.3/bin
 export PATH=$PATH:/usr/local/llvm-3.3/include
 
 
+#nvm
+source ~/.nvm/nvm.sh
+nvm use v0.10.22 &> /dev/null
