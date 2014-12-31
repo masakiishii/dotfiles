@@ -212,15 +212,15 @@
 ;; (setq truncate-partial-width-windows nil) ; use continuous line
 
 ;;=====tmux=====
-(defun terminal-init-screen () 
-  "Terminal initialization function for screen." 
-  ;; Use the xterm color initialization code. 
-  (load "term/xterm") 
+(defun terminal-init-screen ()
+  "Terminal initialization function for screen."
+  ;; Use the xterm color initialization code.
+  (load "term/xterm")
   (xterm-register-default-colors))
 
 ;;=========sr.speedbar.el=========
-;;(require 'sr-speedbar)    
-;;(setq sr-speedbar-right-side nil) 
+;;(require 'sr-speedbar)
+;;(setq sr-speedbar-right-side nil)
 
 ;;=========backcolor is transparent.========
 (setq default-frame-alist
@@ -259,13 +259,13 @@
 (setq auto-async-byte-compile-exclude-files-regexp "/junk/")
 (add-hook 'emacs-lisp-mode-hook 'enable-auto-async-byte-compile-mode)
 
-;; ;=======haskel-mode==================                                                                                 
+;; ;=======haskel-mode==================
 (autoload 'ghc-init "ghc" nil t)
 
 (defun haskell-individual-setup ()
   (let ((mapping '(([f5] . "\C-c\C-l\C-x\omain\C-m\C-xo")
                    ("\C-c\C-i" . ghc-complete)
-                   ([backtab] . haskell-indent-cycle))))    
+                   ([backtab] . haskell-indent-cycle))))
     (loop for (key . f) in mapping
           do (define-key haskell-mode-map key f))
 
@@ -293,7 +293,7 @@
 (autoload 'tuareg-mode "tuareg" "Major mode for editing Caml code" t)
 (autoload 'camldebug "camldebug" "Run the Caml debugger" t)
 ;; (add-hook 'tuareg-mode-hook 'tuareg-imenu-set-imenu)
-(setq auto-mode-alist 
+(setq auto-mode-alist
       (append '(("\\.ml[ily]?$" . tuareg-mode)
 		("\\.topml$" . tuareg-mode))
 	      auto-mode-alist))
